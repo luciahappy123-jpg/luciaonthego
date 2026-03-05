@@ -1,0 +1,68 @@
+
+> lucia-on-the-go@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.57:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 375ms
+ GET / 200 in 221ms (compile: 129ms, render: 91ms)
+ GET / 200 in 44ms (compile: 7ms, render: 38ms)
+✓ Compiled in 186ms
+✓ Compiled in 119ms
+ GET / 200 in 132ms (compile: 74ms, render: 59ms)
+ GET / 200 in 28ms (compile: 4ms, render: 24ms)
+ GET / 200 in 46ms (compile: 19ms, render: 27ms)
+✓ Compiled in 13ms
+✓ Compiled in 24ms
+ GET / 200 in 140ms (compile: 100ms, render: 41ms)
+ GET / 200 in 28ms (compile: 1716µs, render: 26ms)
+ GET / 200 in 36ms (compile: 1202µs, render: 35ms)
+ GET / 200 in 79ms (compile: 1075µs, render: 78ms)
+ GET / 200 in 81ms (compile: 1458µs, render: 80ms)
+ GET / 200 in 65ms (compile: 5ms, render: 60ms)
+ GET / 200 in 40ms (compile: 9ms, render: 31ms)
+ GET / 200 in 12ms (compile: 2ms, render: 10ms)
+✓ Compiled in 134ms
+✓ Compiled in 42ms
+Error: Route "/posts/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PostPage (src/app/posts/[slug]/page.tsx:13:39)
+  11 |
+  12 | export default function PostPage({ params }: { params: { slug: string } }) {
+> 13 |     const post = getPostBySlug(params.slug);
+     |                                       ^
+  14 |
+  15 |     if (!post) {
+  16 |         notFound();
+Error reading post undefined: Error: ENOENT: no such file or directory, open '/Users/lucia/AI/LuciaOnTheGo/lucia-on-the-go/src/content/posts/undefined.md'
+    at getPostBySlug (src/lib/posts.ts:19:33)
+    at PostPage (src/app/posts/[slug]/page.tsx:13:31)
+  17 |     try {
+  18 |         const fullPath = path.join(postsDirectory, `${slug}.md`);
+> 19 |         const fileContents = fs.readFileSync(fullPath, 'utf8');
+     |                                 ^
+  20 |
+  21 |         // 用 gray-matter 解析 Frontmatter 與內文
+  22 |         const { data, content } = matter(fileContents); {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/lucia/AI/LuciaOnTheGo/lucia-on-the-go/src/content/posts/undefined.md'
+}
+ GET /posts/tokyo-2026 200 in 826ms (compile: 763ms, render: 64ms)
+ GET /posts/tokyo-2026 200 in 147ms (compile: 84ms, render: 63ms)
+ GET /posts/tokyo-2026 200 in 71ms (compile: 3ms, render: 68ms)
+ GET / 200 in 133ms (compile: 77ms, render: 56ms)
+ GET /posts/tokyo-2026 200 in 23ms (compile: 5ms, render: 18ms)
+ GET / 200 in 17ms (compile: 3ms, render: 15ms)
+ GET /posts/tokyo-2026 200 in 34ms (compile: 8ms, render: 26ms)
+ GET /posts/tokyo-2026 200 in 25ms (compile: 7ms, render: 18ms)
+ GET / 200 in 71ms (compile: 5ms, render: 66ms)
+ GET / 200 in 47ms (compile: 10ms, render: 37ms)
+ GET /posts/tokyo-2026 200 in 29ms (compile: 11ms, render: 18ms)
+ GET / 200 in 38ms (compile: 3ms, render: 35ms)
+ GET /posts/tokyo-2026 200 in 32ms (compile: 7ms, render: 25ms)
+ GET / 200 in 17ms (compile: 3ms, render: 14ms)
