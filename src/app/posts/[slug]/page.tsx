@@ -1,5 +1,6 @@
 import { getPostBySlug, getAllPostSlugs } from '@/lib/posts';
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -20,7 +21,14 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     }
 
     return (
-        <main className="min-h-screen bg-earth-ocean/30 py-24 px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text">
+        <main className="relative min-h-screen bg-earth-ocean/30 py-24 px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text">
+            {/* Top-left Back to Home Button */}
+            <div className="absolute top-6 left-6 md:top-10 md:left-10 z-50">
+                <Link href="/" className="inline-flex items-center text-sm font-sans tracking-widest uppercase border border-earth-text/20 bg-[#F4F1EA] rounded-full px-4 py-2 hover:bg-earth-text hover:text-earth-ocean shadow-sm transition-all duration-300">
+                    ← 回首頁
+                </Link>
+            </div>
+
             <article className="max-w-3xl mx-auto bg-[#F4F1EA] p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl">
                 <header className="mb-12 text-center">
                     <p className="text-earth-accent font-sans text-sm tracking-widest font-semibold uppercase mb-4">

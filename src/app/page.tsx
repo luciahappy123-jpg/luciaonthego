@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { Menu, Search } from 'lucide-react';
 
 // 使用 next/dynamic 並關閉 ssr，確保 Leaflet 只在瀏覽器端載入
@@ -18,10 +19,10 @@ export default function Home() {
           LUCIA.
         </div>
         <nav className="hidden md:flex gap-8 text-sm font-sans tracking-widest uppercase items-center">
-          <a href="#" className="hover:text-earth-accent transition-colors">地圖探索</a>
-          <a href="#" className="hover:text-earth-accent transition-colors">旅誌列表</a>
-          <a href="#" className="hover:text-earth-accent transition-colors">系列故事</a>
-          <a href="#" className="hover:text-earth-accent transition-colors">關於</a>
+          <Link href="/" className="hover:text-earth-accent transition-colors">地圖探索</Link>
+          <Link href="/posts" className="hover:text-earth-accent transition-colors">旅誌列表</Link>
+          <Link href="#" className="hover:text-earth-accent transition-colors">系列故事</Link>
+          <Link href="#" className="hover:text-earth-accent transition-colors">關於</Link>
           <button aria-label="搜尋" className="ml-4 hover:text-earth-accent transition-colors">
             <Search size={18} />
           </button>

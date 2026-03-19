@@ -45,3 +45,9 @@ location: '東京近郊、金澤、佐原'
 東京近郊，永遠值得再來探索。
 
 #東京近郊遊 #金澤 #佐原 #LuciaOnTheGo
+
+![東京小旅行風景](/images/tokyo-2026/22590B4D-3612-4BCD-BC0F-669805B58076.JPG)
+
+![兼六園或佐原風景](/images/tokyo-2026/268D6835-9363-46AA-8C8F-DEDB345B6E96.JPG)
+
+![東京近郊美味料理或風景](/images/tokyo-2026/9DDE0D75-CD5C-4E1F-BC06-8A971A21398E.JPG)

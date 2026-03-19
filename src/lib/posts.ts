@@ -46,3 +46,33 @@ export function getAllPostSlugs() {
         };
     });
 }
+
+export function getSortedPostsData(): PostData[] {
+    if (!fs.existsSync(postsDirectory)) return [];
+    const fileNames = fs.readdirSync(postsDirectory);
+    const allPostsData = fileNames
+        .filter((fileName) => fileName.endsWith('.md'))
+        .map((fileName) => {
+            const slug = fileName.replace(/\.md$/, '');
+            const fullPath = path.join(postsDirectory, fileName);
+            const fileContents = fs.readFileSync(fullPath, 'utf8');
+            const { data } = matter(fileContents);
+
+            return {
+                slug,
+                title: data.title || '無標題',
+                date: data.date || '',
+                description: data.description || '',
+                location: data.location || '',
+                content: '',
+            };
+        });
+
+    return allPostsData.sort((a, b) => {
+        if (a.date < b.date) {
+            return 1;
+        } else {
+            return -1;
+        }
+    });
+}

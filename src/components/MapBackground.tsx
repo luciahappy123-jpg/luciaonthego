@@ -41,6 +41,34 @@ const travelSpots = [
         position: [31.7917, -7.0926] as [number, number],
         description: '從馬拉喀什的紅城迷宮到撒哈拉沙漠的星空，一場色彩斑斕的北非探險。',
         slug: '#' // 尚未撰寫的文章
+    },
+    {
+        id: 4,
+        name: '2024年 11月 日本九州七星列車之旅',
+        position: [33.5902, 130.4017] as [number, number],
+        description: '「夢幻鐵道之旅」搭乘日本九州七星豪華臥鋪列車，親身感受其極致服務與非凡魅力！',
+        slug: 'kyushu-seven-stars-2024'
+    },
+    {
+        id: 5,
+        name: '2024年 9月 歐洲之旅：英國、荷蘭、比利時、盧森堡',
+        position: [50.8503, 4.3517] as [number, number], // Brussels, Belgium
+        description: '為期三週的歐洲行，從陪同女兒到劍橋大學報到開始，接續遊歷阿姆斯特丹的運河、布魯日的中世紀古城，以及小而美的盧森堡。',
+        slug: 'benelux-2024'
+    },
+    {
+        id: 7,
+        name: '2024年 9月 歐洲之旅：第一站 英國劍橋',
+        position: [52.2053, 0.1218] as [number, number], // Cambridge, UK
+        description: '歐洲之旅的第一站，陪同女兒到劍橋大學報到，開啟這趟充滿感動與美麗的歐洲行。',
+        slug: 'benelux-2024'
+    },
+    {
+        id: 6,
+        name: '2024年 9月 回到倫敦與女兒會合',
+        position: [51.5074, -0.1278] as [number, number], // London, UK
+        description: '第四站回到倫敦與女兒合體，週末快閃利物浦觀賞足球賽，並以美味的北京烤鴨為這趟歐洲行劃下完美句點。',
+        slug: 'london-2024'
     }
 ];
 
