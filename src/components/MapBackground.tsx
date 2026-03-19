@@ -69,6 +69,13 @@ const travelSpots = [
         position: [51.5074, -0.1278] as [number, number], // London, UK
         description: '第四站回到倫敦與女兒合體，週末快閃利物浦觀賞足球賽，並以美味的北京烤鴨為這趟歐洲行劃下完美句點。',
         slug: 'london-2024'
+    },
+    {
+        id: 8,
+        name: '2025年 6月 夏遊記｜東北海道釧路健行',
+        position: [42.9848, 144.3816] as [number, number], // Kushiro, Hokkaido
+        description: '飛向東北海道釧路，展開悠閒的市區散策，與各國健行團員相見歡，為一週的健行挑戰揭開序幕！',
+        slug: 'hokkaido-kushiro-2025'
     }
 ];
 
