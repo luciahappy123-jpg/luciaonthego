@@ -83,6 +83,13 @@ const travelSpots = [
         position: [41.0082, 28.9784] as [number, number], // Istanbul, Turkey
         description: '橫跨歐亞大陸的國際級城市，超過 2,500 年歷史的文化薰陶，伊斯坦堡擁有融合歐亞特色的人文風情與無敵美景！',
         slug: 'turkey-istanbul-2024'
+    },
+    {
+        id: 10,
+        name: '2025年 1月 東京新春遊記',
+        position: [35.6266, 139.7766] as [number, number], // Odaiba, Tokyo
+        description: '東京新春旅遊記：為慶祝外甥考上名校，暢遊秋葉原、台場、富士電視台，與箱根溫泉小旅行，體驗溫馨滿滿的親情相聚。',
+        slug: 'tokyo-2025'
     }
 ];
 
