@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 import Link from 'next/link';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
@@ -147,27 +148,29 @@ export default function MapBackground() {
                 <AnimatedMap />
 
                 {/* 渲染旅行地標 */}
-                {travelSpots.map(spot => (
-                    <Marker key={spot.id} position={spot.position} icon={getEarthToneIcon()}>
-                        <Popup className="font-sans">
-                            <div className="text-earth-text">
-                                <h3 className="font-serif font-bold text-lg mb-1 leading-snug">{spot.name}</h3>
-                                <p className="text-sm opacity-80 mt-2 leading-relaxed">{spot.description}</p>
-                                <div className="mt-4 text-right">
-                                    {spot.slug !== '#' ? (
-                                        <a href={`/posts/${spot.slug}`} className="inline-block text-xs bg-earth-accent text-earth-ocean px-4 py-2 rounded-full hover:bg-earth-text transition-colors duration-300 tracking-wider">
-                                            閱讀旅誌
-                                        </a>
-                                    ) : (
-                                        <span className="inline-block text-xs bg-gray-300 text-gray-500 px-4 py-2 rounded-full tracking-wider cursor-not-allowed">
-                                            即將推出
-                                        </span>
-                                    )}
+                <MarkerClusterGroup chunkedLoading maxClusterRadius={30} showCoverageOnHover={false}>
+                    {travelSpots.map(spot => (
+                        <Marker key={spot.id} position={spot.position} icon={getEarthToneIcon()}>
+                            <Popup className="font-sans">
+                                <div className="text-earth-text">
+                                    <h3 className="font-serif font-bold text-lg mb-1 leading-snug">{spot.name}</h3>
+                                    <p className="text-sm opacity-80 mt-2 leading-relaxed">{spot.description}</p>
+                                    <div className="mt-4 text-right">
+                                        {spot.slug !== '#' ? (
+                                            <a href={`/posts/${spot.slug}`} className="inline-block text-xs bg-earth-accent text-earth-ocean px-4 py-2 rounded-full hover:bg-earth-text transition-colors duration-300 tracking-wider">
+                                                閱讀旅誌
+                                            </a>
+                                        ) : (
+                                            <span className="inline-block text-xs bg-gray-300 text-gray-500 px-4 py-2 rounded-full tracking-wider cursor-not-allowed">
+                                                即將推出
+                                            </span>
+                                        )}
+                                    </div>
                                 </div>
-                            </div>
-                        </Popup>
-                    </Marker>
-                ))}
+                            </Popup>
+                        </Marker>
+                    ))}
+                </MarkerClusterGroup>
 
             </MapContainer>
 
