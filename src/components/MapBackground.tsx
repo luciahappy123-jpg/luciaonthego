@@ -76,6 +76,13 @@ const travelSpots = [
         position: [42.9848, 144.3816] as [number, number], // Kushiro, Hokkaido
         description: '飛向東北海道釧路，展開悠閒的市區散策，與各國健行團員相見歡，為一週的健行挑戰揭開序幕！',
         slug: 'hokkaido-kushiro-2025'
+    },
+    {
+        id: 9,
+        name: '2024年 5月 土耳其卡帕多奇亞與伊斯坦堡雙城遊記',
+        position: [41.0082, 28.9784] as [number, number], // Istanbul, Turkey
+        description: '橫跨歐亞大陸的國際級城市，超過 2,500 年歷史的文化薰陶，伊斯坦堡擁有融合歐亞特色的人文風情與無敵美景！',
+        slug: 'turkey-istanbul-2024'
     }
 ];
 
