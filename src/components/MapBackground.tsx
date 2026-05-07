@@ -105,6 +105,27 @@ const travelSpots = [
         position: [59.3293, 18.0686] as [number, number], // Stockholm, Sweden
         description: '搭乘跨國高鐵來到瑞典首都，參觀老城區、諾貝爾獎博物館、ABBA樂團博物館，感受北歐獨特魅力。',
         slug: 'stockholm-2025'
+    },
+    {
+        id: 13,
+        name: '2025年 7月 馬泰兩國三城：吉隆坡',
+        position: [3.1390, 101.6869] as [number, number], // Kuala Lumpur
+        description: '在吉隆坡萬豪酒店頂樓賞無敵夜景，搭乘市區觀光導覽車。',
+        slug: 'malaysia-thailand-2025'
+    },
+    {
+        id: 14,
+        name: '2025年 7月 馬泰兩國三城：檳城',
+        position: [5.4141, 100.3288] as [number, number], // Penang
+        description: '在檳城體驗健康慢活一週，走訪壁畫街、藍屋與各種博物館，台語也能通！',
+        slug: 'malaysia-thailand-2025'
+    },
+    {
+        id: 15,
+        name: '2025年 7月 馬泰兩國三城：曼谷',
+        position: [13.7563, 100.5018] as [number, number], // Bangkok
+        description: '在曼谷舊地重遊，騎滑板車深度探訪，還與退役師父對打泰拳！',
+        slug: 'malaysia-thailand-2025'
     }
 ];
 
