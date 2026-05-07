@@ -14,7 +14,7 @@ export default function Home() {
     <main className="relative h-screen w-screen overflow-hidden bg-earth-ocean">
 
       {/* 頂部導覽列 */}
-      <header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto mix-blend-color-burn">
+      <header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto drop-shadow-sm">
         <div className="font-serif font-bold text-xl tracking-widest cursor-pointer hover:opacity-70 transition-opacity">
           LUCIA.
         </div>
