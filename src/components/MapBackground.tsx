@@ -91,6 +91,20 @@ const travelSpots = [
         position: [35.6266, 139.7766] as [number, number], // Odaiba, Tokyo
         description: '東京新春旅遊記：為慶祝外甥考上名校，暢遊秋葉原、台場、富士電視台，與箱根溫泉小旅行，體驗溫馨滿滿的親情相聚。',
         slug: 'tokyo-2025'
+    },
+    {
+        id: 11,
+        name: '2025年 5月 春遊記《二》北歐二連發',
+        position: [55.6761, 12.5683] as [number, number], // Copenhagen, Denmark
+        description: '丹麥哥本哈根五天四夜，體驗各種代步神器探索市容，加上快閃瑞典馬爾默的悠閒時光！',
+        slug: 'copenhagen-2025'
+    },
+    {
+        id: 12,
+        name: '2025年 5月 春遊記《三》瑞典斯德哥爾摩',
+        position: [59.3293, 18.0686] as [number, number], // Stockholm, Sweden
+        description: '搭乘跨國高鐵來到瑞典首都，參觀老城區、諾貝爾獎博物館、ABBA樂團博物館，感受北歐獨特魅力。',
+        slug: 'stockholm-2025'
     }
 ];
 
