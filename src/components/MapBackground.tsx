@@ -126,6 +126,34 @@ const travelSpots = [
         position: [13.7563, 100.5018] as [number, number], // Bangkok
         description: '在曼谷舊地重遊，騎滑板車深度探訪，還與退役師父對打泰拳！',
         slug: 'malaysia-thailand-2025'
+    },
+    {
+        id: 16,
+        name: '2024年 除夕與新春隨筆',
+        position: [25.0330, 121.5654] as [number, number], // Taipei
+        description: '珍惜與家人的過年時光，開啟空巢期的四處走透透。',
+        slug: 'new-year-2024'
+    },
+    {
+        id: 17,
+        name: '2024年 2月 新春旅遊趣：橫濱',
+        position: [35.4437, 139.6380] as [number, number], // Yokohama
+        description: '走訪充滿異國情調的橫濱港灣，在空中花園展望台坐享 360 度無敵美景。',
+        slug: 'japan-winter-2024'
+    },
+    {
+        id: 18,
+        name: '2024年 2月 新春旅遊趣：長野野澤溫泉',
+        position: [36.9238, 138.4468] as [number, number], // Nagano
+        description: '在長野飯山市雪屋體驗火鍋，接著前往野澤溫泉享受滑雪時光！',
+        slug: 'japan-winter-2024'
+    },
+    {
+        id: 19,
+        name: '2025年 6月 札幌四天三夜自由行',
+        position: [43.0618, 141.3545] as [number, number], // Sapporo
+        description: '兼具現代感與自然風光的札幌，隨興探索貍小路、北海道大學與湯咖哩。',
+        slug: 'sapporo-2025'
     }
 ];
 
