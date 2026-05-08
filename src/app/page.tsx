@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { Menu, Search } from 'lucide-react';
+import Header from '@/components/Header';
 
 // 使用 next/dynamic 並關閉 ssr，確保 Leaflet 只在瀏覽器端載入
 const MapBackground = dynamic(() => import('@/components/MapBackground'), {
@@ -14,23 +14,7 @@ export default function Home() {
     <main className="relative h-screen w-screen overflow-hidden bg-earth-ocean">
 
       {/* 頂部導覽列 */}
-      <header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto drop-shadow-sm">
-        <div className="font-serif font-bold text-xl tracking-widest cursor-pointer hover:opacity-70 transition-opacity">
-          LUCIA.
-        </div>
-        <nav className="hidden md:flex gap-8 text-sm font-sans tracking-widest uppercase items-center">
-          <Link href="/" className="hover:text-earth-accent transition-colors">地圖探索</Link>
-          <Link href="/posts" className="hover:text-earth-accent transition-colors">旅誌列表</Link>
-          <Link href="#" className="hover:text-earth-accent transition-colors">系列故事</Link>
-          <Link href="#" className="hover:text-earth-accent transition-colors">關於</Link>
-          <button aria-label="搜尋" className="ml-4 hover:text-earth-accent transition-colors">
-            <Search size={18} />
-          </button>
-        </nav>
-        <button className="md:hidden">
-          <Menu className="w-6 h-6 hover:text-earth-accent transition-colors" />
-        </button>
-      </header>
+      <Header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto drop-shadow-sm" />
 
       {/* 互動地圖背景 */}
       <MapBackground />

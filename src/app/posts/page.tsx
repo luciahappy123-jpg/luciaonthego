@@ -1,6 +1,6 @@
 import { getSortedPostsData } from '@/lib/posts';
 import Link from 'next/link';
-import { Menu, Search } from 'lucide-react';
+import Header from '@/components/Header';
 
 export default function PostsPage() {
     const posts = getSortedPostsData();
@@ -8,23 +8,7 @@ export default function PostsPage() {
     return (
         <main className="min-h-screen bg-earth-ocean py-24 px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text relative">
             {/* 頂部導覽列 */}
-            <header className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text">
-                <Link href="/" className="font-serif font-bold text-xl tracking-widest hover:opacity-70 transition-opacity">
-                    LUCIA.
-                </Link>
-                <nav className="hidden md:flex gap-8 text-sm font-sans tracking-widest uppercase items-center">
-                    <Link href="/" className="hover:text-earth-accent transition-colors">地圖探索</Link>
-                    <Link href="/posts" className="text-earth-accent font-semibold transition-colors border-b border-earth-accent">旅誌列表</Link>
-                    <Link href="#" className="hover:text-earth-accent transition-colors">系列故事</Link>
-                    <Link href="#" className="hover:text-earth-accent transition-colors">關於</Link>
-                    <button aria-label="搜尋" className="ml-4 hover:text-earth-accent transition-colors">
-                        <Search size={18} />
-                    </button>
-                </nav>
-                <button className="md:hidden">
-                    <Menu className="w-6 h-6 hover:text-earth-accent transition-colors" />
-                </button>
-            </header>
+            <Header className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text" />
 
             <div className="max-w-5xl mx-auto mt-12 md:mt-20">
                 <header className="mb-16 md:mb-24 text-center">
