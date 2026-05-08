@@ -182,6 +182,34 @@ const travelSpots = [
         position: [42.6507, 18.0944] as [number, number], // Dubrovnik
         description: '登上古城牆漫步，感受《權力遊戲》君臨城的壯麗拍攝地！',
         slug: 'eastern-europe-2024'
+    },
+    {
+        id: 24,
+        name: '2026年 3月 廣島與尾道自由行',
+        position: [34.3853, 132.4553] as [number, number], // Hiroshima
+        description: '來到廣島市，參訪和平紀念公園與宮島嚴島神社，並前往尾道市區觀光。',
+        slug: 'japan-hiroshima-2026'
+    },
+    {
+        id: 25,
+        name: '2026年 3月 瀨戶內海島波海道騎行記',
+        position: [34.4069, 133.2017] as [number, number], // Onomichi
+        description: '與各國車友一同展開為期三天的島波海道騎乘之旅，欣賞壯麗的瀨戶內海風光。',
+        slug: 'japan-shimanami-kaido-2026'
+    },
+    {
+        id: 26,
+        name: '2026年 4月 岡山倉敷美觀地區',
+        position: [34.6551, 133.9195] as [number, number], // Okayama
+        description: '岡山倉敷美觀地區漫步，以及神戶明石海峽大橋登高塔頂導覽體驗之旅。',
+        slug: 'japan-okayama-kobe-2026'
+    },
+    {
+        id: 27,
+        name: '2026年 4月 神戶明石海峽登橋',
+        position: [34.6901, 135.1955] as [number, number], // Kobe
+        description: '神戶明石海峽大橋登高塔頂導覽體驗之旅，俯瞰壯麗的瀨戶內海。',
+        slug: 'japan-okayama-kobe-2026'
     }
 ];
 
