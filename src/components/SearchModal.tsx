@@ -10,6 +10,7 @@ interface PostData {
     date: string;
     description: string;
     location?: string;
+    content?: string;
 }
 
 interface SearchModalProps {
@@ -64,12 +65,29 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         }
 
         const lowerCaseTerm = searchTerm.toLowerCase();
+        
+        // 簡單的數字轉中文，幫助比對如「東歐4國」與「東歐四國」
+        const altTerm = lowerCaseTerm
+            .replace(/1/g, '一')
+            .replace(/2/g, '二')
+            .replace(/3/g, '三')
+            .replace(/4/g, '四')
+            .replace(/5/g, '五')
+            .replace(/6/g, '六')
+            .replace(/7/g, '七')
+            .replace(/8/g, '八')
+            .replace(/9/g, '九')
+            .replace(/10/g, '十');
+
         const results = posts.filter(post => {
-            return (
-                post.title.toLowerCase().includes(lowerCaseTerm) ||
-                (post.location && post.location.toLowerCase().includes(lowerCaseTerm)) ||
-                (post.description && post.description.toLowerCase().includes(lowerCaseTerm))
-            );
+            const searchableText = `
+                ${post.title} 
+                ${post.location || ''} 
+                ${post.description || ''} 
+                ${post.content || ''}
+            `.toLowerCase();
+
+            return searchableText.includes(lowerCaseTerm) || searchableText.includes(altTerm);
         });
         setFilteredPosts(results);
     }, [searchTerm, posts]);

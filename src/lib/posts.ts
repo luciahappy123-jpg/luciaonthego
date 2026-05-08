@@ -56,7 +56,7 @@ export function getSortedPostsData(): PostData[] {
             const slug = fileName.replace(/\.md$/, '');
             const fullPath = path.join(postsDirectory, fileName);
             const fileContents = fs.readFileSync(fullPath, 'utf8');
-            const { data } = matter(fileContents);
+            const { data, content } = matter(fileContents);
 
             return {
                 slug,
@@ -64,7 +64,7 @@ export function getSortedPostsData(): PostData[] {
                 date: data.date || '',
                 description: data.description || '',
                 location: data.location || '',
-                content: '',
+                content: content,
             };
         });
 
