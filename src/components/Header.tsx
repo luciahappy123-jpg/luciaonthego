@@ -16,6 +16,7 @@ export default function Header({ className = "absolute top-0 w-full z-20 flex ju
 
     const isHome = pathname === '/';
     const isPosts = pathname === '/posts';
+    const isAbout = pathname === '/about';
 
     return (
         <>
@@ -27,7 +28,7 @@ export default function Header({ className = "absolute top-0 w-full z-20 flex ju
                     <Link href="/" className={`${isHome ? 'text-earth-accent font-semibold border-b border-earth-accent pb-1' : 'hover:text-earth-accent transition-colors'}`}>地圖探索</Link>
                     <Link href="/posts" className={`${isPosts ? 'text-earth-accent font-semibold border-b border-earth-accent pb-1' : 'hover:text-earth-accent transition-colors'}`}>旅誌列表</Link>
                     <Link href="#" className="hover:text-earth-accent transition-colors">系列故事</Link>
-                    <Link href="#" className="hover:text-earth-accent transition-colors">關於</Link>
+                    <Link href="/about" className={`${isAbout ? 'text-earth-accent font-semibold border-b border-earth-accent pb-1' : 'hover:text-earth-accent transition-colors'}`}>關於</Link>
                     <button 
                         aria-label="搜尋" 
                         className="ml-4 hover:text-earth-accent transition-colors"
