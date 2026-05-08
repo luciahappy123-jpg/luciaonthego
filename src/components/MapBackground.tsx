@@ -154,6 +154,34 @@ const travelSpots = [
         position: [43.0618, 141.3545] as [number, number], // Sapporo
         description: '兼具現代感與自然風光的札幌，隨興探索貍小路、北海道大學與湯咖哩。',
         slug: 'sapporo-2025'
+    },
+    {
+        id: 20,
+        name: '2024年 5月 東歐四國之旅：斯洛維尼亞',
+        position: [46.0569, 14.5058] as [number, number], // Ljubljana
+        description: '走訪盧布安納、歐洲綠寶石布列德湖，以及全歐洲最大的鐘乳石洞。',
+        slug: 'eastern-europe-2024'
+    },
+    {
+        id: 21,
+        name: '2024年 5月 東歐四國之旅：克羅埃西亞',
+        position: [44.8654, 15.5820] as [number, number], // Plitvice Lakes
+        description: '漫步在16湖國家公園的絕美奇景中，並探訪亞得里亞海岸五大古城。',
+        slug: 'eastern-europe-2024'
+    },
+    {
+        id: 22,
+        name: '2024年 5月 東歐四國之旅：波士尼亞與赫塞哥維納',
+        position: [43.8563, 18.4131] as [number, number], // Sarajevo
+        description: '親臨歷史戰火下的薩拉耶佛與莫斯塔爾橋，感受豐富的文化多樣性。',
+        slug: 'eastern-europe-2024'
+    },
+    {
+        id: 23,
+        name: '2024年 5月 東歐四國之旅：杜布羅尼克',
+        position: [42.6507, 18.0944] as [number, number], // Dubrovnik
+        description: '登上古城牆漫步，感受《權力遊戲》君臨城的壯麗拍攝地！',
+        slug: 'eastern-europe-2024'
     }
 ];
 
