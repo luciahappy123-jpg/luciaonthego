@@ -210,6 +210,13 @@ const travelSpots = [
         position: [34.6901, 135.1955] as [number, number], // Kobe
         description: '神戶明石海峽大橋登高塔頂導覽體驗之旅，俯瞰壯麗的瀨戶內海。',
         slug: 'japan-okayama-kobe-2026'
+    },
+    {
+        id: 28,
+        name: '2023年 7月 日本青森輕旅行',
+        position: [40.8222, 140.7474] as [number, number], // Aomori
+        description: '走訪日本本州最北端青森縣，登八甲田山、漫步城倉大橋，體驗青森市區特有文化。',
+        slug: 'japan-aomori-2023'
     }
 ];
 
