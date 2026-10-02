@@ -22,6 +22,13 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 36,
+        name: '2026年 6月 9日 溫莎古堡 OBE 授勳典禮',
+        position: [51.4838, -0.6040] as [number, number], // OSM way/23580556
+        description: '陪伴先生參加由安妮公主親自授勳的 OBE 典禮，見證三十多年人生旅程中的重要里程碑。',
+        slug: 'windsor-obe-2026'
+    },
+    {
         id: 31,
         name: '2026年 6月 10日 馬爾他遊誌：瓦萊塔',
         position: [35.8990, 14.5137] as [number, number], // OSM relation/7510580
@@ -269,7 +276,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {

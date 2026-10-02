@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import ArticleMedia from '@/components/ArticleMedia';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -49,16 +50,16 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               prose-a:text-earth-accent hover:prose-a:text-earth-text prose-a:transition-colors
               prose-img:rounded-xl prose-img:shadow-md
               prose-hr:border-earth-text/20">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ img: ArticleMedia }}>
                         {post.content}
                     </ReactMarkdown>
                 </div>
             </article>
 
             <div className="max-w-3xl mx-auto mt-12 text-center">
-                <a href="/" className="inline-block text-sm font-sans tracking-widest uppercase border border-earth-text/20 rounded-full px-6 py-3 hover:bg-earth-text hover:text-earth-ocean transition-all duration-300">
+                <Link href="/" className="inline-block text-sm font-sans tracking-widest uppercase border border-earth-text/20 rounded-full px-6 py-3 hover:bg-earth-text hover:text-earth-ocean transition-all duration-300">
                     ← 返回地圖探索
-                </a>
+                </Link>
             </div>
         </main>
     );
