@@ -30,9 +30,23 @@ const travelSpots = [
     },
     {
         id: 2,
-        name: '2025年 9月 加拿大洛磯山脈',
+        name: '2025年 9月 17日 洛磯山觀光火車之旅：賈斯珀',
         position: [52.8734, -118.0825] as [number, number], // 賈斯珀國家公園附近
-        description: '搭乘觀光火車，在360度玻璃圓頂看盡湖光山色，體驗一場世界最佳旅程。',
+        description: '從溫哥華經甘露抵達賈斯珀，欣賞洛磯山湖光山色，夜宿 Jasper Park Lodge，再繼續前往班夫。',
+        slug: 'canada-rocky-mountaineer-2025'
+    },
+    {
+        id: 29,
+        name: '2025年 9月 17日 洛磯山觀光火車之旅：溫哥華',
+        position: [49.2827, -123.1207] as [number, number], // Vancouver city centre
+        description: '從溫哥華出發，搭乘 Rocky Mountaineer 金楓葉 GoldLeaf 車廂，展開兩天的洛磯山觀光火車之旅。',
+        slug: 'canada-rocky-mountaineer-2025'
+    },
+    {
+        id: 30,
+        name: '2025年 9月 17日 洛磯山觀光火車之旅：甘露',
+        position: [50.6745, -120.3273] as [number, number], // Kamloops city centre
+        description: '火車旅程途經甘露 Kamloops，在全景玻璃車廂欣賞沿途山水，享受美食與貼心服務。',
         slug: 'canada-rocky-mountaineer-2025'
     },
     {
@@ -227,6 +241,14 @@ function AnimatedMap() {
     useEffect(() => {
         map.attributionControl.setPrefix(false);
 
+        // A trip link opens its stops together and keeps them in view while reading.
+        const tripSlug = new URLSearchParams(window.location.search).get('trip');
+        const tripStops = travelSpots.filter(spot => spot.slug !== '#' && spot.slug === tripSlug);
+        if (tripStops.length > 0) {
+            map.fitBounds(tripStops.map(spot => spot.position), { padding: [60, 100], maxZoom: 5 });
+            return;
+        }
+
         let isInteracting = false;
         map.on('mousedown', () => { isInteracting = true; });
         map.on('touchstart', () => { isInteracting = true; });
@@ -255,8 +277,11 @@ function AnimatedMap() {
 }
 
 export default function MapBackground() {
+    const tripSlug = new URLSearchParams(window.location.search).get('trip');
+    const isTripFocused = travelSpots.some(spot => spot.slug !== '#' && spot.slug === tripSlug);
+
     return (
-        <div className="absolute inset-0 z-0 bg-earth-ocean">
+        <div className="absolute inset-0 z-0 bg-earth-ocean" data-focused-trip={isTripFocused}>
             <MapContainer
                 center={[25, 65]}
                 zoom={3}
@@ -276,7 +301,7 @@ export default function MapBackground() {
                 {/* 渲染旅行地標 */}
                 <MarkerClusterGroup chunkedLoading maxClusterRadius={30} showCoverageOnHover={false}>
                     {travelSpots.map(spot => (
-                        <Marker key={spot.id} position={spot.position} icon={getEarthToneIcon()}>
+                        <Marker key={spot.id} position={spot.position} title={spot.name} icon={getEarthToneIcon()}>
                             <Popup className="font-sans">
                                 <div className="text-earth-text">
                                     <h3 className="font-serif font-bold text-lg mb-1 leading-snug">{spot.name}</h3>

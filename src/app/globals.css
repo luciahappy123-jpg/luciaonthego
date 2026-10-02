@@ -24,3 +24,8 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+/* Keep the travel stops and their popups unobstructed in a focused trip view. */
+main:has([data-focused-trip="true"]) .home-branding {
+  display: none;
+}

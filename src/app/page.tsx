@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
 import Header from '@/components/Header';
 
 // 使用 next/dynamic 並關閉 ssr，確保 Leaflet 只在瀏覽器端載入
@@ -20,8 +19,8 @@ export default function Home() {
       <MapBackground />
 
       {/* 前景內容 */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center pointer-events-none">
-        <div className="text-center slide-up-fade-in pointer-events-auto">
+      <div className="home-branding absolute inset-0 z-10 flex flex-col items-center justify-center pointer-events-none">
+        <div className="text-center slide-up-fade-in">
           <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-wider text-earth-text mb-4 drop-shadow-sm">
             Lucia
             <span className="block text-2xl md:text-4xl font-sans font-light mt-4 tracking-[0.3em] text-earth-accent drop-shadow-sm">
