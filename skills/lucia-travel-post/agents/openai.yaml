@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lucia 遊記上稿"
+  short_description: "把備忘錄遊記整理到網站與世界地圖，依要求上傳並確認公開列表"
+  default_prompt: "使用 $lucia-travel-post，把我指定的備忘錄遊記整理到 Lucia On The Go 的文章與世界地圖，上傳 GitHub 並確認 Vercel 公開版本。"
