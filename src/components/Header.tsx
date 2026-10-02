@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, Search } from 'lucide-react';
+import { Menu, Search, X } from 'lucide-react';
 import SearchModal from './SearchModal';
 
 interface HeaderProps {
@@ -13,6 +13,7 @@ interface HeaderProps {
 export default function Header({ className = "absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto" }: HeaderProps) {
     const pathname = usePathname();
     const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const isHome = pathname === '/';
     const isPosts = pathname === '/posts';
@@ -38,13 +39,25 @@ export default function Header({ className = "absolute top-0 w-full z-20 flex ju
                     </button>
                 </nav>
                 <div className="flex md:hidden gap-5 items-center">
-                    <button aria-label="搜尋" onClick={() => setIsSearchOpen(true)}>
+                    <button aria-label="搜尋" onClick={() => { setIsMenuOpen(false); setIsSearchOpen(true); }}>
                         <Search className="w-5 h-5 hover:text-earth-accent transition-colors" />
                     </button>
-                    <button aria-label="選單">
-                        <Menu className="w-6 h-6 hover:text-earth-accent transition-colors" />
+                    <button
+                        aria-label={isMenuOpen ? '關閉選單' : '選單'}
+                        aria-expanded={isMenuOpen}
+                        aria-controls="mobile-navigation"
+                        onClick={() => setIsMenuOpen(open => !open)}
+                    >
+                        {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6 hover:text-earth-accent transition-colors" />}
                     </button>
                 </div>
+                {isMenuOpen && (
+                    <nav id="mobile-navigation" aria-label="手機導覽" className="absolute top-full left-4 right-4 md:hidden flex flex-col gap-1 rounded-2xl bg-earth-ocean p-4 shadow-lg border border-earth-text/10">
+                        <Link href="/" onClick={() => setIsMenuOpen(false)} className="px-4 py-3 hover:text-earth-accent">地圖探索</Link>
+                        <Link href="/posts" onClick={() => setIsMenuOpen(false)} className="px-4 py-3 hover:text-earth-accent">旅誌列表</Link>
+                        <Link href="/about" onClick={() => setIsMenuOpen(false)} className="px-4 py-3 hover:text-earth-accent">關於</Link>
+                    </nav>
+                )}
             </header>
 
             <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
