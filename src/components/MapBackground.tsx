@@ -19,8 +19,43 @@ const getEarthToneIcon = () => {
     });
 };
 
-// 地標資料，我們將「東京」、「摩洛哥」與「加拿大」作為展示點
+// 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
+    {
+        id: 31,
+        name: '2026年 6月 10日 馬爾他遊誌：瓦萊塔',
+        position: [35.8990, 14.5137] as [number, number], // OSM relation/7510580
+        description: '入住 The Phoenicia Malta，漫步瓦萊塔古城、上巴拉卡花園與聖約翰副主教座堂，探索拉斯卡里斯作戰室。',
+        slug: 'malta-2026'
+    },
+    {
+        id: 32,
+        name: '2026年 6月 10日 馬爾他遊誌：藍湖',
+        position: [36.0140, 14.3234] as [number, number], // OSM node/3767235077
+        description: '來到 Blue Lagoon，收藏地中海迷人的藍；拍完照，立刻搭船閃人！',
+        slug: 'malta-2026'
+    },
+    {
+        id: 33,
+        name: '2026年 6月 10日 馬爾他遊誌：姆迪納',
+        position: [35.8859, 14.4025] as [number, number], // OSM relation/7510549
+        description: '走訪寂靜之城 Mdina，在千年古都感受中世紀氛圍，探訪《權力遊戲》的取景地。',
+        slug: 'malta-2026'
+    },
+    {
+        id: 34,
+        name: '2026年 6月 10日 馬爾他遊誌：聖保羅地下墓穴',
+        position: [35.8814, 14.3974] as [number, number], // OSM way/1350417862
+        description: '走進 St Paul’s Catacombs，探索錯綜複雜、像地下迷宮的歷史遺跡。',
+        slug: 'malta-2026'
+    },
+    {
+        id: 35,
+        name: '2026年 6月 10日 馬爾他遊誌：Marsaxlokk 魚市',
+        position: [35.8418, 14.5448] as [number, number], // OSM relation/7510571
+        description: '馬爾他最後一天，逛傳統假日魚市：海鮮多、漁船多、遊客更多！',
+        slug: 'malta-2026'
+    },
     {
         id: 1,
         name: '2026年 2月 東京近郊小旅行',
@@ -233,6 +268,9 @@ const travelSpots = [
     }
 ];
 
+// 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12 };
+
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {
     const map = useMap();
@@ -245,7 +283,10 @@ function AnimatedMap() {
         const tripSlug = new URLSearchParams(window.location.search).get('trip');
         const tripStops = travelSpots.filter(spot => spot.slug !== '#' && spot.slug === tripSlug);
         if (tripStops.length > 0) {
-            map.fitBounds(tripStops.map(spot => spot.position), { padding: [60, 100], maxZoom: 5 });
+            map.fitBounds(tripStops.map(spot => spot.position), {
+                padding: [60, 100],
+                maxZoom: tripFocusZoom[tripSlug || ''] ?? 5,
+            });
             return;
         }
 
