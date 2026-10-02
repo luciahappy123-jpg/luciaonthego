@@ -22,6 +22,27 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 37,
+        name: '2026年 6月 14日 西西里島：卡塔尼亞',
+        position: [37.5024, 15.0874] as [number, number], // OSM relation/39230
+        description: '從馬爾他搭渡輪來到西西里島，走訪聖阿加塔主教座堂、大象噴泉、魚市場、埃特納大道與貝里尼公園。',
+        slug: 'sicily-2026'
+    },
+    {
+        id: 38,
+        name: '2026年 6月 14日 西西里島：埃特納活火山',
+        position: [37.7510, 14.9940] as [number, number], // OSM node/58999222
+        description: '搭纜車與越野巴士，再跟著導覽員健行到三千多公尺；在冷風與冰雹中，忍不住說：「幸好我有上來！」',
+        slug: 'sicily-2026'
+    },
+    {
+        id: 39,
+        name: '2026年 6月 14日 西西里島：陶爾米納',
+        position: [37.8512, 15.2830] as [number, number], // OSM relation/39384
+        description: '火山健行後享用酒莊午餐與紅酒，傍晚來到陶爾米納，海景、火山、古城與美食一次擁有。',
+        slug: 'sicily-2026'
+    },
+    {
         id: 36,
         name: '2026年 6月 9日 溫莎古堡 OBE 授勳典禮',
         position: [51.4838, -0.6040] as [number, number], // OSM way/23580556
@@ -276,7 +297,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {
