@@ -1,6 +1,11 @@
+import type { Metadata } from 'next';
 import { getSortedPostsData } from '@/lib/posts';
 import Link from 'next/link';
 import Header from '@/components/Header';
+
+export const metadata: Metadata = {
+    title: '所有旅誌',
+};
 
 export default function PostsPage() {
     const posts = getSortedPostsData();

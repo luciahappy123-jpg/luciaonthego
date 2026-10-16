@@ -1,9 +1,21 @@
+import type { Metadata } from 'next';
 import { getPostBySlug, getAllPostSlugs } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import ArticleMedia from '@/components/ArticleMedia';
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    const post = getPostBySlug(slug);
+
+    if (!post) {
+        notFound();
+    }
+
+    return { title: post.title };
+}
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();

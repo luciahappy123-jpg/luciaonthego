@@ -1,5 +1,10 @@
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+    title: '關於我',
+};
 
 export default function AboutPage() {
     return (

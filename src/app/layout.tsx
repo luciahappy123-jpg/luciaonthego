@@ -13,7 +13,10 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Lucia On The Go | 探索世界",
+  title: {
+    default: "Lucia On The Go | 探索世界",
+    template: "%s Lucia On The Go | 探索世界",
+  },
   description: "全球旅遊日誌與故事",
 };
 
