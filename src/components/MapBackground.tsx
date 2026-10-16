@@ -22,6 +22,27 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 41,
+        name: '2026年 9月 15日 桑吉巴爾島：石頭城與 Park Hyatt Zanzibar',
+        position: [-6.1625, 39.1861] as [number, number], // OSM way/355775330
+        description: '告別肯亞 Safari，入住石頭城裡的 Park Hyatt Zanzibar，悠閒吃早餐，出門散步、吹海風、看夕陽。',
+        slug: 'tanzania-zanzibar-2026'
+    },
+    {
+        id: 42,
+        name: '2026年 9月 15日 桑吉巴爾島：Freddie Mercury Museum',
+        position: [-6.1622, 39.1878] as [number, number], // OSM node/4379274292
+        description: '逛逛石頭城，參觀 Queen 皇后樂團主唱 Freddie Mercury 的紀念館。',
+        slug: 'tanzania-zanzibar-2026'
+    },
+    {
+        id: 43,
+        name: '2026年 9月 15日 桑吉巴爾島：Prison Island 監獄島',
+        position: [-6.1192, 39.1661] as [number, number], // OSM way/13366675 (Changuu)
+        description: '拜訪巨型 Aldabra 象龜，一隻隻百歲起跳，讓我忍不住說：這根本是「長壽養生村」！',
+        slug: 'tanzania-zanzibar-2026'
+    },
+    {
         id: 40,
         name: '2026年 9月 5日 肯亞・長頸鹿莊園 Giraffe Manor',
         position: [-1.3754, 36.7445] as [number, number], // OSM node/1078542346
@@ -304,7 +325,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12, 'tanzania-zanzibar-2026': 13 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {
