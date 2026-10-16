@@ -22,6 +22,13 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 40,
+        name: '2026年 9月 5日 肯亞・長頸鹿莊園 Giraffe Manor',
+        position: [-1.3754, 36.7445] as [number, number], // OSM node/1078542346
+        description: '等了兩年的圓夢之旅：入住 Karen Blixen Suite，清晨在陽台餵長頸鹿，再和牠們共享早餐時光。',
+        slug: 'kenya-giraffe-manor-2026'
+    },
+    {
         id: 37,
         name: '2026年 6月 14日 西西里島：卡塔尼亞',
         position: [37.5024, 15.0874] as [number, number], // OSM relation/39230
@@ -297,7 +304,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {
