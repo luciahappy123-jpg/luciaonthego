@@ -1,0 +1,853 @@
+{
+  "hotel": {
+    "title": "Park Hyatt Zanzibar 與早餐時光",
+    "photos": [
+      {
+        "src": "/images/zanzibar-2026/img_6788.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6788.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "飯店庭院外的印度洋海景"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0166.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0166.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "悠閒早餐的自助餐台"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0167.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0167.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "早餐餐台上的料理"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0093.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0093.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "飯店與悠閒早餐 4"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0094.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0094.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "飯店與悠閒早餐 5"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0095.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0095.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "飯店與悠閒早餐 6"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0098.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0098.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "飯店裡的手寫看板"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/images/zanzibar-2026/img_0165.mp4",
+        "poster": "/images/zanzibar-2026/img_0165-poster.jpg",
+        "duration": 10.58,
+        "caption": "悠閒早餐時光"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0158.mp4",
+        "poster": "/images/zanzibar-2026/img_0158-poster.jpg",
+        "duration": 15.849,
+        "caption": "飯店庭院的夜晚"
+      }
+    ],
+    "previewCount": 3
+  },
+  "stone-town": {
+    "title": "石頭城街景與沿途見聞",
+    "photos": [
+      {
+        "src": "/images/zanzibar-2026/img_6796.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6796.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "走進石頭城熱鬧的市集"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6793.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6793.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "石頭城精緻的雕花木門"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6815.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6815.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "走在石頭城狹長的巷弄裡"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6797.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6797.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "石頭城的教堂外觀"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6809.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6809.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "庭院裡的兩人午餐時光"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6799.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6799.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "石頭城的紀念雕塑"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0108.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0108.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "石頭城教堂的內部"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0109.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0109.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "教堂裡的木椅與拱頂"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6792.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6792.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "Freddie Mercury Museum 所在的建築"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6794.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6794.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 10"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6795.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6795.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "石頭城沿途見聞 11"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6813.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6813.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 12"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6814.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6814.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 13"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6798.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6798.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "沿途看到的歷史介紹石碑"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6804.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6804.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "石頭城歷史空間的內部"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0126.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0126.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 16"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0127.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0127.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 17"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0128.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0128.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 18"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0129.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0129.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 19"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0130.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0130.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 20"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0131.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0131.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "沿著石頭城海邊散步"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0132.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0132.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "陽光下的石頭城海岸"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0110.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0110.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 23"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0111.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0111.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 24"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0112.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0112.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 25"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0113.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0113.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 26"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0114.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0114.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 27"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0115.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0115.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 28"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0116.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0116.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 29"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0117.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0117.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 30"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0118.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0118.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 31"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0119.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0119.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 32"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0120.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0120.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 33"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0121.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0121.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 34"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0122.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0122.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 35"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0123.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0123.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 36"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0124.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0124.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "石頭城沿途見聞 37"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0125.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0125.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "石頭城沿途見聞 38"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0107.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0107.webp",
+        "width": 884,
+        "height": 1920,
+        "alt": "旅途中保存的翻譯筆記"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0157.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0157.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "石頭城沿途見聞 40"
+      }
+    ],
+    "videos": []
+  },
+  "freddie": {
+    "title": "Freddie Mercury Museum",
+    "photos": [
+      {
+        "src": "/images/zanzibar-2026/img_6791.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6791.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Freddie Mercury Museum 裡的合影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6789.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6789.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "在 Freddie Mercury Museum 入口前留影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0102.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0102.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "紀念館裡的音樂與演出展覽"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0099.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0099.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "Freddie Mercury 生平介紹看板"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0100.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0100.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "Freddie Mercury Museum 參觀記錄 7"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0101.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0101.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "Freddie Mercury Museum 參觀記錄 8"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0103.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0103.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "在黃色展間裡留影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0104.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0104.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "紀念館的參觀回憶"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0105.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0105.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "Freddie Mercury Museum 參觀記錄 9"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0106.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0106.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "Freddie Mercury Museum 參觀記錄 10"
+      }
+    ],
+    "videos": []
+  },
+  "prison-island": {
+    "title": "Prison Island 監獄島與象龜",
+    "photos": [
+      {
+        "src": "/images/zanzibar-2026/img_0197.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0197.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "在樹蔭下慢慢活動的巨型象龜"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6856.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6856.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "與 Aldabra 象龜近距離相遇"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0168.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0168.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島海邊的木棧道"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6846.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6846.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "搭船前往監獄島的途中"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6847.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6847.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "小船前方的藍色海面"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0211.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0211.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "和巨型象龜一起留影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0187.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0187.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 7"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0189.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0189.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 8"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0190.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0190.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 9"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0191.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0191.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 10"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0192.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0192.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 11"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0195.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0195.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 12"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0196.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0196.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 13"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0198.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0198.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 14"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0200.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0200.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 15"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0201.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0201.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 16"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0213.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0213.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 17"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0214.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0214.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 18"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0215.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0215.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 19"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0216.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0216.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 20"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0217.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0217.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 21"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0169.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0169.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 22"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0171.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0171.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 23"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0172.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0172.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 24"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0173.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0173.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 25"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0174.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0174.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 26"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0175.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0175.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 27"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0176.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0176.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 28"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0177.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0177.webp",
+        "width": 1080,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 29"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0178.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0178.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 30"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0179.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0179.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 31"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0180.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0180.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 32"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0181.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0181.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 33"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0182.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0182.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 34"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0183.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0183.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 35"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0184.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0184.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 36"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0185.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0185.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "監獄島與巨型象龜 37"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6848.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6848.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "監獄島建築前的合影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6857.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6857.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 39"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6859.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6859.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "監獄島與巨型象龜 40"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6862.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6862.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "島上樹蔭下的孔雀"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/images/zanzibar-2026/img_0186.mp4",
+        "poster": "/images/zanzibar-2026/img_0186-poster.jpg",
+        "duration": 33.705,
+        "caption": "走進象龜生活的樹蔭"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0199.mp4",
+        "poster": "/images/zanzibar-2026/img_0199-poster.jpg",
+        "duration": 28.948,
+        "caption": "巨型象龜近距離"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0222.mp4",
+        "poster": "/images/zanzibar-2026/img_0222-poster.jpg",
+        "duration": 8.574,
+        "caption": "坐著小船看海"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0170.mp4",
+        "poster": "/images/zanzibar-2026/img_0170-poster.jpg",
+        "duration": 20.542,
+        "caption": "監獄島的大樹與海風"
+      },
+      {
+        "src": "/images/zanzibar-2026/2b49888f-4478-410f-b609-6eaefa045aee.mp4",
+        "poster": "/images/zanzibar-2026/2b49888f-4478-410f-b609-6eaefa045aee-poster.jpg",
+        "duration": 5.739067,
+        "caption": "島上的海景觀景臺"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0218.mp4",
+        "poster": "/images/zanzibar-2026/img_0218-poster.jpg",
+        "duration": 15.913,
+        "caption": "島上的鳥園"
+      }
+    ]
+  },
+  "sunset": {
+    "title": "海風、夕陽與旅行的尾聲",
+    "photos": [
+      {
+        "src": "/images/zanzibar-2026/img_6841.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6841.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "傍晚的海面與粉紅色天空"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6836.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6836.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "海邊餐桌上的兩人合影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6827.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6827.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "在夕陽下享受不趕行程的時光"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6828.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6828.webp",
+        "width": 1440,
+        "height": 1920,
+        "alt": "海風裡的輕鬆飲料時光"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0154.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0154.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "遠方的帆船與柔和夕色"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6842.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6842.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "傍晚海灘上仍在玩水的人們"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0152.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0152.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "夕陽下的海邊餐桌"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0153.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0153.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "和夕陽一起留在照片裡"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_0155.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_0155.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "黃昏的海面與岸邊人影"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6787.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6787.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "碧海藍天與海邊的小船"
+      },
+      {
+        "src": "/images/zanzibar-2026/img_6833.webp",
+        "thumbnail": "/images/zanzibar-2026/thumbs/img_6833.webp",
+        "width": 1920,
+        "height": 1440,
+        "alt": "桑吉巴爾海邊與夕陽 11"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/images/zanzibar-2026/img_0156.mp4",
+        "poster": "/images/zanzibar-2026/img_0156-poster.jpg",
+        "duration": 17.001,
+        "caption": "海邊餐桌與夕陽時光"
+      }
+    ]
+  }
+}

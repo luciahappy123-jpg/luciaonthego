@@ -2,9 +2,7 @@ import type { Metadata } from 'next';
 import { getPostBySlug, getAllPostSlugs } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import ArticleMedia from '@/components/ArticleMedia';
+import ArticleContent from '@/components/ArticleContent';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
@@ -62,9 +60,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               prose-a:text-earth-accent hover:prose-a:text-earth-text prose-a:transition-colors
               prose-img:rounded-xl prose-img:shadow-md
               prose-hr:border-earth-text/20">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ img: ArticleMedia }}>
-                        {post.content}
-                    </ReactMarkdown>
+                    <ArticleContent content={post.content} slug={resolvedParams.slug} />
                 </div>
             </article>
 

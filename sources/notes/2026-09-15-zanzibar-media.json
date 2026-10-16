@@ -1,0 +1,1332 @@
+{
+  "sourceFolder": "lucia世界旅遊跑透透/20260915坦尚尼亞桑吉巴爾島",
+  "photos": [
+    {
+      "id": 6,
+      "file": "IMG_0093.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:15 16:18:19"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0093.webp",
+      "src": "/images/zanzibar-2026/img_0093.webp"
+    },
+    {
+      "id": 7,
+      "file": "IMG_0094.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:15 16:52:50"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0094.webp",
+      "src": "/images/zanzibar-2026/img_0094.webp"
+    },
+    {
+      "id": 8,
+      "file": "IMG_0095.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:15 17:01:10"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0095.webp",
+      "src": "/images/zanzibar-2026/img_0095.webp"
+    },
+    {
+      "id": 9,
+      "file": "IMG_0098.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 10:41:28"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0098.webp",
+      "src": "/images/zanzibar-2026/img_0098.webp"
+    },
+    {
+      "id": 10,
+      "file": "IMG_0099.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 10:59:42"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0099.webp",
+      "src": "/images/zanzibar-2026/img_0099.webp"
+    },
+    {
+      "id": 11,
+      "file": "IMG_0100.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:06:33"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0100.webp",
+      "src": "/images/zanzibar-2026/img_0100.webp"
+    },
+    {
+      "id": 12,
+      "file": "IMG_0101.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:16:12"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0101.webp",
+      "src": "/images/zanzibar-2026/img_0101.webp"
+    },
+    {
+      "id": 13,
+      "file": "IMG_0102.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 11:16:29"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0102.webp",
+      "src": "/images/zanzibar-2026/img_0102.webp"
+    },
+    {
+      "id": 14,
+      "file": "IMG_0103.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 11:16:50"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0103.webp",
+      "src": "/images/zanzibar-2026/img_0103.webp"
+    },
+    {
+      "id": 15,
+      "file": "IMG_0104.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 11:16:52"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0104.webp",
+      "src": "/images/zanzibar-2026/img_0104.webp"
+    },
+    {
+      "id": 16,
+      "file": "IMG_0105.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:21:37"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0105.webp",
+      "src": "/images/zanzibar-2026/img_0105.webp"
+    },
+    {
+      "id": 17,
+      "file": "IMG_0106.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:22:18"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0106.webp",
+      "src": "/images/zanzibar-2026/img_0106.webp"
+    },
+    {
+      "id": 18,
+      "file": "IMG_0107.PNG",
+      "width": 884,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:31:12"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0107.webp",
+      "src": "/images/zanzibar-2026/img_0107.webp"
+    },
+    {
+      "id": 19,
+      "file": "IMG_0108.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 12:39:31"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0108.webp",
+      "src": "/images/zanzibar-2026/img_0108.webp"
+    },
+    {
+      "id": 20,
+      "file": "IMG_0109.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 12:39:40"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0109.webp",
+      "src": "/images/zanzibar-2026/img_0109.webp"
+    },
+    {
+      "id": 21,
+      "file": "IMG_0110.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:52:53"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0110.webp",
+      "src": "/images/zanzibar-2026/img_0110.webp"
+    },
+    {
+      "id": 22,
+      "file": "IMG_0111.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:53:24"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0111.webp",
+      "src": "/images/zanzibar-2026/img_0111.webp"
+    },
+    {
+      "id": 23,
+      "file": "IMG_0112.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:53:48"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0112.webp",
+      "src": "/images/zanzibar-2026/img_0112.webp"
+    },
+    {
+      "id": 24,
+      "file": "IMG_0113.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:54:13"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0113.webp",
+      "src": "/images/zanzibar-2026/img_0113.webp"
+    },
+    {
+      "id": 25,
+      "file": "IMG_0114.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:54:26"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0114.webp",
+      "src": "/images/zanzibar-2026/img_0114.webp"
+    },
+    {
+      "id": 26,
+      "file": "IMG_0115.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:54:42"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0115.webp",
+      "src": "/images/zanzibar-2026/img_0115.webp"
+    },
+    {
+      "id": 27,
+      "file": "IMG_0116.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:54:58"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0116.webp",
+      "src": "/images/zanzibar-2026/img_0116.webp"
+    },
+    {
+      "id": 28,
+      "file": "IMG_0117.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:55:03"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0117.webp",
+      "src": "/images/zanzibar-2026/img_0117.webp"
+    },
+    {
+      "id": 29,
+      "file": "IMG_0118.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:55:33"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0118.webp",
+      "src": "/images/zanzibar-2026/img_0118.webp"
+    },
+    {
+      "id": 30,
+      "file": "IMG_0119.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:55:47"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0119.webp",
+      "src": "/images/zanzibar-2026/img_0119.webp"
+    },
+    {
+      "id": 31,
+      "file": "IMG_0120.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:56:15"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0120.webp",
+      "src": "/images/zanzibar-2026/img_0120.webp"
+    },
+    {
+      "id": 32,
+      "file": "IMG_0121.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:57:08"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0121.webp",
+      "src": "/images/zanzibar-2026/img_0121.webp"
+    },
+    {
+      "id": 33,
+      "file": "IMG_0122.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:57:42"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0122.webp",
+      "src": "/images/zanzibar-2026/img_0122.webp"
+    },
+    {
+      "id": 34,
+      "file": "IMG_0123.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:58:28"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0123.webp",
+      "src": "/images/zanzibar-2026/img_0123.webp"
+    },
+    {
+      "id": 35,
+      "file": "IMG_0124.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 13:00:21"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0124.webp",
+      "src": "/images/zanzibar-2026/img_0124.webp"
+    },
+    {
+      "id": 36,
+      "file": "IMG_0125.heic",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 13:00:27"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0125.webp",
+      "src": "/images/zanzibar-2026/img_0125.webp"
+    },
+    {
+      "id": 37,
+      "file": "IMG_0126.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 13:34:39"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0126.webp",
+      "src": "/images/zanzibar-2026/img_0126.webp"
+    },
+    {
+      "id": 38,
+      "file": "IMG_0127.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 13:34:49"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0127.webp",
+      "src": "/images/zanzibar-2026/img_0127.webp"
+    },
+    {
+      "id": 39,
+      "file": "IMG_0128.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 13:34:51"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0128.webp",
+      "src": "/images/zanzibar-2026/img_0128.webp"
+    },
+    {
+      "id": 40,
+      "file": "IMG_0129.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 13:34:53"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0129.webp",
+      "src": "/images/zanzibar-2026/img_0129.webp"
+    },
+    {
+      "id": 41,
+      "file": "IMG_0130.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 13:34:57"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0130.webp",
+      "src": "/images/zanzibar-2026/img_0130.webp"
+    },
+    {
+      "id": 42,
+      "file": "IMG_0131.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 14:16:58"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0131.webp",
+      "src": "/images/zanzibar-2026/img_0131.webp"
+    },
+    {
+      "id": 43,
+      "file": "IMG_0132.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 14:17:33"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0132.webp",
+      "src": "/images/zanzibar-2026/img_0132.webp"
+    },
+    {
+      "id": 44,
+      "file": "IMG_0152.heic",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 18:01:01"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0152.webp",
+      "src": "/images/zanzibar-2026/img_0152.webp"
+    },
+    {
+      "id": 45,
+      "file": "IMG_0153.heic",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 18:01:17"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0153.webp",
+      "src": "/images/zanzibar-2026/img_0153.webp"
+    },
+    {
+      "id": 46,
+      "file": "IMG_0154.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 18:10:49"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0154.webp",
+      "src": "/images/zanzibar-2026/img_0154.webp"
+    },
+    {
+      "id": 47,
+      "file": "IMG_0155.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:16 18:11:03"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0155.webp",
+      "src": "/images/zanzibar-2026/img_0155.webp"
+    },
+    {
+      "id": 48,
+      "file": "IMG_0157.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 18:37:46"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0157.webp",
+      "src": "/images/zanzibar-2026/img_0157.webp"
+    },
+    {
+      "id": 49,
+      "file": "IMG_0166.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 07:59:31"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0166.webp",
+      "src": "/images/zanzibar-2026/img_0166.webp"
+    },
+    {
+      "id": 50,
+      "file": "IMG_0167.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 08:01:11"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0167.webp",
+      "src": "/images/zanzibar-2026/img_0167.webp"
+    },
+    {
+      "id": 51,
+      "file": "IMG_0168.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 10:45:46"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0168.webp",
+      "src": "/images/zanzibar-2026/img_0168.webp"
+    },
+    {
+      "id": 52,
+      "file": "IMG_0169.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 10:51:52"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0169.webp",
+      "src": "/images/zanzibar-2026/img_0169.webp"
+    },
+    {
+      "id": 53,
+      "file": "IMG_0171.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 10:54:29"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0171.webp",
+      "src": "/images/zanzibar-2026/img_0171.webp"
+    },
+    {
+      "id": 54,
+      "file": "IMG_0172.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 10:54:32"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0172.webp",
+      "src": "/images/zanzibar-2026/img_0172.webp"
+    },
+    {
+      "id": 55,
+      "file": "IMG_0173.heic",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 10:55:53"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0173.webp",
+      "src": "/images/zanzibar-2026/img_0173.webp"
+    },
+    {
+      "id": 56,
+      "file": "IMG_0174.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 10:56:00"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0174.webp",
+      "src": "/images/zanzibar-2026/img_0174.webp"
+    },
+    {
+      "id": 57,
+      "file": "IMG_0175.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:15:22"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0175.webp",
+      "src": "/images/zanzibar-2026/img_0175.webp"
+    },
+    {
+      "id": 58,
+      "file": "IMG_0176.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:16:22"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0176.webp",
+      "src": "/images/zanzibar-2026/img_0176.webp"
+    },
+    {
+      "id": 59,
+      "file": "IMG_0177.heic",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:16:55"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0177.webp",
+      "src": "/images/zanzibar-2026/img_0177.webp"
+    },
+    {
+      "id": 60,
+      "file": "IMG_0178.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:17:40"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0178.webp",
+      "src": "/images/zanzibar-2026/img_0178.webp"
+    },
+    {
+      "id": 61,
+      "file": "IMG_0179.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:17:46"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0179.webp",
+      "src": "/images/zanzibar-2026/img_0179.webp"
+    },
+    {
+      "id": 62,
+      "file": "IMG_0180.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:20:40"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0180.webp",
+      "src": "/images/zanzibar-2026/img_0180.webp"
+    },
+    {
+      "id": 63,
+      "file": "IMG_0181.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:21:02"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0181.webp",
+      "src": "/images/zanzibar-2026/img_0181.webp"
+    },
+    {
+      "id": 64,
+      "file": "IMG_0182.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:21:03"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0182.webp",
+      "src": "/images/zanzibar-2026/img_0182.webp"
+    },
+    {
+      "id": 65,
+      "file": "IMG_0183.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:21:09"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0183.webp",
+      "src": "/images/zanzibar-2026/img_0183.webp"
+    },
+    {
+      "id": 66,
+      "file": "IMG_0184.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:23:08"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0184.webp",
+      "src": "/images/zanzibar-2026/img_0184.webp"
+    },
+    {
+      "id": 67,
+      "file": "IMG_0185.heic",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:23:33"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0185.webp",
+      "src": "/images/zanzibar-2026/img_0185.webp"
+    },
+    {
+      "id": 68,
+      "file": "IMG_0187.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:30:59"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0187.webp",
+      "src": "/images/zanzibar-2026/img_0187.webp"
+    },
+    {
+      "id": 69,
+      "file": "IMG_0189.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:01"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0189.webp",
+      "src": "/images/zanzibar-2026/img_0189.webp"
+    },
+    {
+      "id": 70,
+      "file": "IMG_0190.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:02"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0190.webp",
+      "src": "/images/zanzibar-2026/img_0190.webp"
+    },
+    {
+      "id": 71,
+      "file": "IMG_0191.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:03"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0191.webp",
+      "src": "/images/zanzibar-2026/img_0191.webp"
+    },
+    {
+      "id": 72,
+      "file": "IMG_0192.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:03"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0192.webp",
+      "src": "/images/zanzibar-2026/img_0192.webp"
+    },
+    {
+      "id": 73,
+      "file": "IMG_0195.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:48"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0195.webp",
+      "src": "/images/zanzibar-2026/img_0195.webp"
+    },
+    {
+      "id": 74,
+      "file": "IMG_0196.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:31:50"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0196.webp",
+      "src": "/images/zanzibar-2026/img_0196.webp"
+    },
+    {
+      "id": 75,
+      "file": "IMG_0197.HEIC",
+      "width": 1920,
+      "height": 1080,
+      "dates": {
+        "306": "2026:09:17 11:32:20"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0197.webp",
+      "src": "/images/zanzibar-2026/img_0197.webp"
+    },
+    {
+      "id": 76,
+      "file": "IMG_0198.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:32:34"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0198.webp",
+      "src": "/images/zanzibar-2026/img_0198.webp"
+    },
+    {
+      "id": 77,
+      "file": "IMG_0200.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:34:30"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0200.webp",
+      "src": "/images/zanzibar-2026/img_0200.webp"
+    },
+    {
+      "id": 78,
+      "file": "IMG_0201.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:34:46"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0201.webp",
+      "src": "/images/zanzibar-2026/img_0201.webp"
+    },
+    {
+      "id": 79,
+      "file": "IMG_0211.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:07"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0211.webp",
+      "src": "/images/zanzibar-2026/img_0211.webp"
+    },
+    {
+      "id": 80,
+      "file": "IMG_0213.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:09"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0213.webp",
+      "src": "/images/zanzibar-2026/img_0213.webp"
+    },
+    {
+      "id": 81,
+      "file": "IMG_0214.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:10"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0214.webp",
+      "src": "/images/zanzibar-2026/img_0214.webp"
+    },
+    {
+      "id": 82,
+      "file": "IMG_0215.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:12"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0215.webp",
+      "src": "/images/zanzibar-2026/img_0215.webp"
+    },
+    {
+      "id": 83,
+      "file": "IMG_0216.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:13"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0216.webp",
+      "src": "/images/zanzibar-2026/img_0216.webp"
+    },
+    {
+      "id": 84,
+      "file": "IMG_0217.HEIC",
+      "width": 1080,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:14"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_0217.webp",
+      "src": "/images/zanzibar-2026/img_0217.webp"
+    },
+    {
+      "id": 85,
+      "file": "IMG_6787.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 09:53:55"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6787.webp",
+      "src": "/images/zanzibar-2026/img_6787.webp"
+    },
+    {
+      "id": 86,
+      "file": "IMG_6788.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 09:54:12"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6788.webp",
+      "src": "/images/zanzibar-2026/img_6788.webp"
+    },
+    {
+      "id": 87,
+      "file": "IMG_6789.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 10:58:30"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6789.webp",
+      "src": "/images/zanzibar-2026/img_6789.webp"
+    },
+    {
+      "id": 88,
+      "file": "IMG_6791.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 11:17:16"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6791.webp",
+      "src": "/images/zanzibar-2026/img_6791.webp"
+    },
+    {
+      "id": 89,
+      "file": "IMG_6792.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:22:38"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6792.webp",
+      "src": "/images/zanzibar-2026/img_6792.webp"
+    },
+    {
+      "id": 90,
+      "file": "IMG_6793.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:52:01"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6793.webp",
+      "src": "/images/zanzibar-2026/img_6793.webp"
+    },
+    {
+      "id": 91,
+      "file": "IMG_6794.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 11:55:16"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6794.webp",
+      "src": "/images/zanzibar-2026/img_6794.webp"
+    },
+    {
+      "id": 92,
+      "file": "IMG_6795.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 12:00:57"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6795.webp",
+      "src": "/images/zanzibar-2026/img_6795.webp"
+    },
+    {
+      "id": 93,
+      "file": "IMG_6796.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 12:01:01"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6796.webp",
+      "src": "/images/zanzibar-2026/img_6796.webp"
+    },
+    {
+      "id": 94,
+      "file": "IMG_6797.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 12:29:18"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6797.webp",
+      "src": "/images/zanzibar-2026/img_6797.webp"
+    },
+    {
+      "id": 95,
+      "file": "IMG_6798.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 12:32:14"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6798.webp",
+      "src": "/images/zanzibar-2026/img_6798.webp"
+    },
+    {
+      "id": 96,
+      "file": "IMG_6799.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 12:32:26"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6799.webp",
+      "src": "/images/zanzibar-2026/img_6799.webp"
+    },
+    {
+      "id": 97,
+      "file": "IMG_6804.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 12:46:01"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6804.webp",
+      "src": "/images/zanzibar-2026/img_6804.webp"
+    },
+    {
+      "id": 98,
+      "file": "IMG_6809.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 13:35:15"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6809.webp",
+      "src": "/images/zanzibar-2026/img_6809.webp"
+    },
+    {
+      "id": 99,
+      "file": "IMG_6813.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 14:07:52"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6813.webp",
+      "src": "/images/zanzibar-2026/img_6813.webp"
+    },
+    {
+      "id": 100,
+      "file": "IMG_6814.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 14:11:15"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6814.webp",
+      "src": "/images/zanzibar-2026/img_6814.webp"
+    },
+    {
+      "id": 101,
+      "file": "IMG_6815.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 14:11:36"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6815.webp",
+      "src": "/images/zanzibar-2026/img_6815.webp"
+    },
+    {
+      "id": 102,
+      "file": "IMG_6825.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {},
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6825.webp",
+      "src": "/images/zanzibar-2026/img_6825.webp"
+    },
+    {
+      "id": 103,
+      "file": "IMG_6827.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 17:56:32"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6827.webp",
+      "src": "/images/zanzibar-2026/img_6827.webp"
+    },
+    {
+      "id": 104,
+      "file": "IMG_6828.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 17:58:30"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6828.webp",
+      "src": "/images/zanzibar-2026/img_6828.webp"
+    },
+    {
+      "id": 105,
+      "file": "IMG_6833.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 18:10:38"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6833.webp",
+      "src": "/images/zanzibar-2026/img_6833.webp"
+    },
+    {
+      "id": 106,
+      "file": "IMG_6836.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:16 18:18:50"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6836.webp",
+      "src": "/images/zanzibar-2026/img_6836.webp"
+    },
+    {
+      "id": 107,
+      "file": "IMG_6841.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 18:33:41"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6841.webp",
+      "src": "/images/zanzibar-2026/img_6841.webp"
+    },
+    {
+      "id": 108,
+      "file": "IMG_6842.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:16 18:33:50"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6842.webp",
+      "src": "/images/zanzibar-2026/img_6842.webp"
+    },
+    {
+      "id": 109,
+      "file": "IMG_6846.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:17 10:19:07"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6846.webp",
+      "src": "/images/zanzibar-2026/img_6846.webp"
+    },
+    {
+      "id": 110,
+      "file": "IMG_6847.HEIC",
+      "width": 1920,
+      "height": 1440,
+      "dates": {
+        "306": "2026:09:17 10:27:57"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6847.webp",
+      "src": "/images/zanzibar-2026/img_6847.webp"
+    },
+    {
+      "id": 111,
+      "file": "IMG_6848.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:09:26"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6848.webp",
+      "src": "/images/zanzibar-2026/img_6848.webp"
+    },
+    {
+      "id": 112,
+      "file": "IMG_6856.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:35:29"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6856.webp",
+      "src": "/images/zanzibar-2026/img_6856.webp"
+    },
+    {
+      "id": 113,
+      "file": "IMG_6857.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:35:31"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6857.webp",
+      "src": "/images/zanzibar-2026/img_6857.webp"
+    },
+    {
+      "id": 114,
+      "file": "IMG_6859.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:41:10"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6859.webp",
+      "src": "/images/zanzibar-2026/img_6859.webp"
+    },
+    {
+      "id": 115,
+      "file": "IMG_6862.HEIC",
+      "width": 1440,
+      "height": 1920,
+      "dates": {
+        "306": "2026:09:17 11:57:02"
+      },
+      "thumbnail": "/images/zanzibar-2026/thumbs/img_6862.webp",
+      "src": "/images/zanzibar-2026/img_6862.webp"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "file": "2B49888F-4478-410F-B609-6EAEFA045AEE.MP4",
+      "width": 720,
+      "height": 1280,
+      "duration": 5.739067,
+      "bytes": 32956341,
+      "src": "/images/zanzibar-2026/2b49888f-4478-410f-b609-6eaefa045aee.mp4",
+      "poster": "/images/zanzibar-2026/2b49888f-4478-410f-b609-6eaefa045aee-poster.jpg"
+    },
+    {
+      "id": 3,
+      "file": "IMG_0156.MOV",
+      "width": 1280,
+      "height": 720,
+      "duration": 17.001,
+      "bytes": 18088207,
+      "src": "/images/zanzibar-2026/img_0156.mp4",
+      "poster": "/images/zanzibar-2026/img_0156-poster.jpg"
+    },
+    {
+      "id": 4,
+      "file": "IMG_0158.MOV",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.849,
+      "bytes": 24083853,
+      "src": "/images/zanzibar-2026/img_0158.mp4",
+      "poster": "/images/zanzibar-2026/img_0158-poster.jpg"
+    },
+    {
+      "id": 5,
+      "file": "IMG_0165.MOV",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.58,
+      "bytes": 10433849,
+      "src": "/images/zanzibar-2026/img_0165.mp4",
+      "poster": "/images/zanzibar-2026/img_0165-poster.jpg"
+    },
+    {
+      "id": 6,
+      "file": "IMG_0170.MOV",
+      "width": 720,
+      "height": 1280,
+      "duration": 20.542,
+      "bytes": 24809193,
+      "src": "/images/zanzibar-2026/img_0170.mp4",
+      "poster": "/images/zanzibar-2026/img_0170-poster.jpg"
+    },
+    {
+      "id": 7,
+      "file": "IMG_0186.MOV",
+      "width": 1280,
+      "height": 720,
+      "duration": 33.705,
+      "bytes": 33821369,
+      "src": "/images/zanzibar-2026/img_0186.mp4",
+      "poster": "/images/zanzibar-2026/img_0186-poster.jpg"
+    },
+    {
+      "id": 8,
+      "file": "IMG_0199.MOV",
+      "width": 720,
+      "height": 1280,
+      "duration": 28.948,
+      "bytes": 29268154,
+      "src": "/images/zanzibar-2026/img_0199.mp4",
+      "poster": "/images/zanzibar-2026/img_0199-poster.jpg"
+    },
+    {
+      "id": 9,
+      "file": "IMG_0218.MOV",
+      "width": 1280,
+      "height": 720,
+      "duration": 15.913,
+      "bytes": 15927715,
+      "src": "/images/zanzibar-2026/img_0218.mp4",
+      "poster": "/images/zanzibar-2026/img_0218-poster.jpg"
+    },
+    {
+      "id": 10,
+      "file": "IMG_0222.MOV",
+      "width": 720,
+      "height": 1280,
+      "duration": 8.574,
+      "bytes": 8597439,
+      "src": "/images/zanzibar-2026/img_0222.mp4",
+      "poster": "/images/zanzibar-2026/img_0222-poster.jpg"
+    }
+  ],
+  "duplicates": [
+    {
+      "file": "44AB01B6-B850-44E1-BDC4-E646A21D43C7.JPG",
+      "sameAs": "IMG_6815.HEIC"
+    },
+    {
+      "file": "94B8F4A4-62F1-430C-87D9-1D5F5E0463E6.JPG",
+      "sameAs": "IMG_6825.HEIC"
+    },
+    {
+      "file": "D62971FC-38BB-40AD-BF2F-2408DD75369C.JPG",
+      "sameAs": "IMG_6789.HEIC"
+    },
+    {
+      "file": "FD4C5FD1-AA9D-4682-845E-FE635202125A.JPG",
+      "sameAs": "IMG_6797.HEIC"
+    },
+    {
+      "file": "FF6DEEDE-2F4E-46F7-A373-1645D629F1A0.JPG",
+      "sameAs": "IMG_6833.HEIC"
+    },
+    {
+      "file": "AE7F5F3F-F69D-489B-BA2C-6857573436E4.MP4",
+      "sameAs": "IMG_0170.MOV",
+      "verified": "identical decoded video frames (SSIM=1)"
+    }
+  ]
+}

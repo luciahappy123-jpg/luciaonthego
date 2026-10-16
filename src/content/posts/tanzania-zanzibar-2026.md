@@ -6,6 +6,8 @@ location: "坦尚尼亞，桑吉巴爾島／石頭城／監獄島"
 slug: "tanzania-zanzibar-2026"
 ---
 
+![桑吉巴爾島的碧海藍天，終於可以放慢腳步。](/images/zanzibar-2026/img_6825.webp)
+
 **旅行日期：2026 年 9 月 15 日｜坦尚尼亞・桑吉巴爾島 🇹🇿**
 
 [在世界地圖上查看這趟旅程](/?trip=tanzania-zanzibar-2026)
@@ -30,11 +32,19 @@ slug: "tanzania-zanzibar-2026"
 
 飯店位置也很方便，走出門就可以逛石頭城。
 
+<!-- gallery:hotel -->
+
+## 石頭城：走出飯店就開始散步
+
+<!-- gallery:stone-town -->
+
 ## Freddie Mercury Museum：石頭城裡的音樂足跡
 
 這幾天沒有排太多行程，行程很簡單：逛逛 Stone Town，再去看看 **Freddie Mercury Museum**。🎤
 
 這是傳奇搖滾樂團 **Queen 皇后樂團**主唱 **Freddie Mercury** 的出生地相關紀念館。
+
+<!-- gallery:freddie -->
 
 ## Prison Island：這根本是「長壽養生村」！
 
@@ -48,6 +58,8 @@ slug: "tanzania-zanzibar-2026"
 
 這哪是烏龜島，根本是「長壽養生村」！
 
+<!-- gallery:prison-island -->
+
 ## 什麼都不趕，才是最奢侈的享受
 
 最後幾天，什麼都不趕，吹吹海風、看看夕陽。
@@ -55,6 +67,8 @@ slug: "tanzania-zanzibar-2026"
 旅行到最後才發現，**什麼都不趕，才是最奢侈的享受。**
 
 **非洲之旅，滿載而歸，完美收官。**
+
+<!-- gallery:sunset -->
 
 ---
 
