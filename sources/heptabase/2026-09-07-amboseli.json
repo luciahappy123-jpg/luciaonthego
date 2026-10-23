@@ -1,0 +1,34 @@
+{
+  "trip": "kenya-amboseli-2026",
+  "travelDate": "2026-09-07",
+  "retrievedOn": "2026-10-23",
+  "source": {
+    "type": "Heptabase preserved Apple Notes diary",
+    "cardId": "6689c141-f986-40b2-b2a6-d478f130ca7f",
+    "title": "2026/09/07 🇰🇪 Amboseli 安博塞利國家公園篇",
+    "originalNote": "Apple 備忘錄〈2026/09/07〉",
+    "lines": 108
+  },
+  "backup": "sources/heptabase/2026-09-07-amboseli.md",
+  "post": "src/content/posts/kenya-amboseli-2026.md",
+  "media": "Text only; no photos, videos or R2 changes.",
+  "mapSources": [
+    {
+      "name": "Amboseli National Park",
+      "coordinates": [
+        -2.563584,
+        37.199699
+      ],
+      "source": "https://database.wrti.go.ke/conservation/area/268"
+    },
+    {
+      "name": "Tortilis Camp",
+      "coordinates": [
+        -2.683383,
+        37.180317
+      ],
+      "source": "https://www.elewanacollection.com/tortilis-camp-amboseli/getting-there",
+      "originalCoordinates": "S 2°41′0.18″ E 37°10′49.14″"
+    }
+  ]
+}
