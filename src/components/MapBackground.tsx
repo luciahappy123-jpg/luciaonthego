@@ -22,6 +22,20 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 46,
+        name: '2026年 9月 9日 肯亞・奈瓦夏湖 Lake Naivasha',
+        position: [-0.7667, 36.3500] as [number, number], // Key Biodiversity Areas site/6438
+        description: '改搭小船展開水上獵遊，沿途遇見水鳥與河馬家族，還驚喜看到長頸鹿媽媽帶著小孩涉水上島。',
+        slug: 'kenya-lake-naivasha-2026'
+    },
+    {
+        id: 47,
+        name: '2026年 9月 9日 奈瓦夏湖・新月島 Crescent Island',
+        position: [-0.7770101, 36.4087495] as [number, number], // OSM way/1072030272, Nominatim representative point
+        description: '登上新月島健行，長頸鹿、斑馬、河馬與黑斑羚就在不遠處自由活動；有動物相陪伴，一起走得非常開心。',
+        slug: 'kenya-lake-naivasha-2026'
+    },
+    {
         id: 44,
         name: '2026年 9月 7日 肯亞・安博塞利國家公園 Amboseli',
         position: [-2.563584, 37.199699] as [number, number], // Kenya WRTI National Wildlife Database area/268
@@ -339,7 +353,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12, 'kenya-amboseli-2026': 11, 'tanzania-zanzibar-2026': 13 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12, 'kenya-amboseli-2026': 11, 'kenya-lake-naivasha-2026': 12, 'tanzania-zanzibar-2026': 13 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {

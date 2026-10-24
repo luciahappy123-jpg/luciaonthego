@@ -1,0 +1,40 @@
+{
+  "trip": "kenya-lake-naivasha-2026",
+  "travelDate": "2026-09-09",
+  "retrievedOn": "2026-10-24",
+  "source": {
+    "type": "Apple Notes",
+    "id": "x-coredata://6696EB2A-F111-412F-92B8-709D528C1D9E/ICNote/p1607",
+    "title": "2026/09/09 🇰🇪奈瓦夏湖"
+  },
+  "backup": "sources/notes/2026-09-09-naivasha.md",
+  "post": "src/content/posts/kenya-lake-naivasha-2026.md",
+  "attachmentCount": 0,
+  "media": "Text only; no image, video or R2 changes.",
+  "editorialChanges": [
+    "Added section headings and the existing world-map link.",
+    "Adjusted punctuation, spacing and paragraph breaks; corrected 健走的 to 健走得.",
+    "Removed unrenderable Notes object markers from the website tags; preserved the original backup."
+  ],
+  "mapSources": [
+    {
+      "name": "Lake Naivasha",
+      "coordinates": [
+        -0.7667,
+        36.35
+      ],
+      "source": "https://www.keybiodiversityareas.org/en/site/factsheet/6438"
+    },
+    {
+      "name": "Crescent Island",
+      "coordinates": [
+        -0.7770101,
+        36.4087495
+      ],
+      "source": "https://www.openstreetmap.org/way/1072030272",
+      "locationMethod": "Nominatim representative point for the named sanctuary; not a specific landing site.",
+      "corroboration": "https://www.crescentisland.co/the-island"
+    }
+  ],
+  "backupFormatting": "Only surrounding blank lines and line-end whitespace normalized; original Notes content unchanged."
+}
