@@ -1,0 +1,42 @@
+{
+  "trip": "kenya-lake-nakuru-2026",
+  "travelDate": "2026-09-14",
+  "retrievedOn": "2026-10-24",
+  "source": {
+    "type": "Apple Notes",
+    "id": "x-coredata://6696EB2A-F111-412F-92B8-709D528C1D9E/ICNote/p1612",
+    "title": "2026/09/14 🇰🇪納庫魯湖國家公園 Lake Nakuru"
+  },
+  "backup": "sources/notes/2026-09-14-lake-nakuru.md",
+  "post": "src/content/posts/kenya-lake-nakuru-2026.md",
+  "attachmentCount": 0,
+  "media": "Text only; no photos or videos uploaded. Unrenderable Notes placeholder omitted from article.",
+  "backupFormatting": "Only surrounding blank lines and line-end whitespace normalized; original Note unchanged.",
+  "editorialChanges": [
+    "Added section headings and the existing world-map link.",
+    "Preserved both source versions separately, including their different descriptions of sunrise colours.",
+    "Adjusted punctuation, spacing and paragraph breaks; corrected 桑 吉巴爾 to 桑吉巴爾. No new travel experiences added.",
+    "Consolidated the original hashtags at the end."
+  ],
+  "mapSources": [
+    {
+      "name": "Lake Nakuru National Park",
+      "coordinates": [
+        -0.422096,
+        36.09087
+      ],
+      "source": "https://database.wrti.go.ke/conservation/area/272"
+    },
+    {
+      "name": "The Cliff",
+      "coordinates": [
+        -0.368056,
+        36.056111
+      ],
+      "originalCoordinates": "0°22′5″S 36°3′22″E",
+      "source": "https://stwetuproduction.blob.core.windows.net/azure-blob-resources-wetu-production/Resources/140311/the_cliff_fact_sheet.pdf",
+      "propertyOfficialSite": "https://www.wilder-group.com/the-cliff",
+      "note": "Property-issued fact sheet; degrees/minutes/seconds converted to decimal degrees."
+    }
+  ]
+}
