@@ -1,0 +1,43 @@
+{
+  "trip": "kenya-masai-mara-2026",
+  "travelDate": "2026-09-11",
+  "retrievedOn": "2026-10-24",
+  "source": {
+    "type": "Apple Notes",
+    "id": "x-coredata://6696EB2A-F111-412F-92B8-709D528C1D9E/ICNote/p1620",
+    "title": "🇰🇪 2026/09/11  馬塞馬拉 Masai Mara"
+  },
+  "backup": "sources/notes/2026-09-11-masai-mara.md",
+  "post": "src/content/posts/kenya-masai-mara-2026.md",
+  "attachmentCounts": {
+    "images": 7,
+    "videos": 3
+  },
+  "media": "Text only; media attachments and embedded Notes HTML were not uploaded.",
+  "backupFormatting": "Only surrounding blank lines and line-end whitespace normalized; original Note unchanged.",
+  "editorialChanges": [
+    "Added section headings and the existing world-map link.",
+    "Separated the balloon group breakfast and the later private family breakfast.",
+    "Adjusted punctuation, spacing and paragraph breaks; corrected 飛的/拼的 to 飛得/拼得, removed duplicated 這 and redundant 得必須.",
+    "Kept hotel and suite tags; omitted unrenderable attachment markers from the website."
+  ],
+  "mapSources": [
+    {
+      "name": "Masai Mara National Reserve",
+      "coordinates": [
+        -1.460111,
+        35.172271
+      ],
+      "source": "https://database.wrti.go.ke/conservation/area/280"
+    },
+    {
+      "name": "Sanctuary Olonana",
+      "coordinates": [
+        -1.240118,
+        35.034676
+      ],
+      "source": "https://ecotourismkenya.org/wp-content/uploads/ekdownloads/facilities/gold/Sanctuary%20Olonana_web%20profile.pdf",
+      "corroboration": "https://www.abercrombiekent.com/api/download?id=file-c9002d35a54f8fba2096f61c43a24d7fc428684a-pdf"
+    }
+  ]
+}

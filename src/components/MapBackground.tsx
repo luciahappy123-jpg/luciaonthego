@@ -22,6 +22,20 @@ const getEarthToneIcon = () => {
 // 旅行地標；同一旅程的多個地點共用文章 slug。
 const travelSpots = [
     {
+        id: 48,
+        name: '2026年 9月 11日 肯亞・馬塞馬拉 Masai Mara',
+        position: [-1.460111, 35.172271] as [number, number], // Kenya WRTI National Wildlife Database area/280
+        description: '近距離見證草原上的動物生存戰；清晨搭熱氣球迎接日出、見證空中求婚，再收藏兩場難忘的草原早餐。',
+        slug: 'kenya-masai-mara-2026'
+    },
+    {
+        id: 49,
+        name: '2026年 9月 11日 馬塞馬拉・Sanctuary Olonana',
+        position: [-1.240118, 35.034676] as [number, number], // Ecotourism Kenya: Sanctuary Olonana facility profile
+        description: '連住三晚的河畔別墅，有泳池、專屬主廚與管家；伴著河馬鼾聲入睡，也收藏一家四口相聚的時光。',
+        slug: 'kenya-masai-mara-2026'
+    },
+    {
         id: 46,
         name: '2026年 9月 9日 肯亞・奈瓦夏湖 Lake Naivasha',
         position: [-0.7667, 36.3500] as [number, number], // Key Biodiversity Areas site/6438
@@ -353,7 +367,7 @@ const travelSpots = [
 ];
 
 // 小島旅程需要較近的視野，才能探索彼此相鄰的地點。
-const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12, 'kenya-amboseli-2026': 11, 'kenya-lake-naivasha-2026': 12, 'tanzania-zanzibar-2026': 13 };
+const tripFocusZoom: Record<string, number> = { 'malta-2026': 12, 'windsor-obe-2026': 10, 'sicily-2026': 10, 'kenya-giraffe-manor-2026': 12, 'kenya-amboseli-2026': 11, 'kenya-lake-naivasha-2026': 12, 'kenya-masai-mara-2026': 10, 'tanzania-zanzibar-2026': 13 };
 
 // 處理地圖緩慢平移邏輯的子元件
 function AnimatedMap() {
