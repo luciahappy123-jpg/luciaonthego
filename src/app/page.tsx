@@ -10,7 +10,7 @@ const MapBackground = dynamic(() => import('@/components/MapBackground'), {
 
 export default function Home() {
   return (
-    <main className="relative h-screen w-screen overflow-hidden bg-earth-ocean">
+    <main className="relative h-dvh w-full overflow-hidden bg-earth-ocean">
 
       {/* 頂部導覽列 */}
       <Header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto drop-shadow-sm" />

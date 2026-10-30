@@ -104,19 +104,20 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
             {/* 搜尋框與結果 */}
             <div className="relative w-full max-w-2xl bg-[#F4F1EA] rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
-                <div className="flex items-center px-6 py-4 border-b border-earth-text/10">
-                    <Search className="w-5 h-5 text-earth-text/50 mr-4" />
+                <div className="flex items-center px-3 sm:px-6 py-3 border-b border-earth-text/10">
+                    <Search className="w-5 h-5 shrink-0 text-earth-text/70 mr-2 sm:mr-4" />
                     <input
                         ref={inputRef}
                         type="text"
                         placeholder="搜尋遊記標題、地點或關鍵字..."
-                        className="flex-1 bg-transparent border-none outline-none text-earth-text placeholder:text-earth-text/40 font-sans text-lg"
+                        className="min-w-0 w-full flex-1 bg-transparent border-none outline-none text-earth-text placeholder:text-earth-text/60 font-sans text-lg"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
                     <button 
                         onClick={onClose}
-                        className="p-2 text-earth-text/50 hover:text-earth-accent transition-colors rounded-full hover:bg-earth-text/5"
+                        aria-label="關閉搜尋"
+                        className="flex h-11 w-11 shrink-0 items-center justify-center text-earth-text/70 hover:text-earth-accent transition-colors rounded-full hover:bg-earth-text/5"
                     >
                         <X className="w-5 h-5" />
                     </button>
@@ -136,9 +137,9 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                     onClick={onClose}
                                     className="block px-6 py-4 hover:bg-white/60 transition-colors border-l-2 border-transparent hover:border-earth-accent"
                                 >
-                                    <div className="flex items-center justify-between mb-1">
+                                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4 mb-2">
                                         <h3 className="font-serif font-bold text-earth-text text-lg">{post.title}</h3>
-                                        <span className="text-xs font-sans tracking-wider text-earth-text/50">{post.date}</span>
+                                        <span className="shrink-0 text-sm font-sans tracking-wide text-earth-text/50">{post.date}</span>
                                     </div>
                                     <p className="text-sm font-sans text-earth-text/70 line-clamp-1">
                                         {post.location && <span className="font-semibold text-earth-accent mr-2">{post.location}</span>}

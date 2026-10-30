@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
     return (
-        <main className="min-h-screen bg-earth-ocean py-24 px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text relative overflow-hidden">
+        <main className="min-h-screen bg-earth-ocean py-24 px-3 sm:px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text relative overflow-hidden">
             <Header className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text" />
 
-            <div className="max-w-4xl mx-auto mt-12 md:mt-20">
-                <div className="bg-[#F4F1EA] rounded-3xl p-8 md:p-16 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
+            <div className="max-w-4xl mx-auto mt-6 md:mt-20">
+                <div className="bg-[#F4F1EA] rounded-3xl px-4 py-8 sm:p-8 md:p-16 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
                     {/* Decorative element */}
                     <div className="absolute top-0 right-0 w-64 h-64 bg-earth-accent/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
                     
@@ -21,7 +21,7 @@ export default function AboutPage() {
                         <p className="font-sans text-earth-accent tracking-[0.2em] uppercase text-sm font-semibold">About Lucia</p>
                     </header>
 
-                    <div className="prose prose-lg md:prose-xl prose-stone max-w-none font-sans font-light text-earth-text/90 leading-relaxed relative z-10">
+                    <div className="prose prose-lg md:prose-xl prose-stone max-w-none font-sans font-normal text-earth-text/90 leading-[1.9] break-words relative z-10">
                         <p>你好，我是 Lucia。</p>
                         
                         <p>當孩子們如羽翼豐滿的鳥兒，飛向各自的天空、選擇在他鄉發展她們的人生時，我和先生正式迎來了人生的「空巢期」。但對我們而言，這不是停滯，而是全新探索的開始。有了更多的時間與空間，以及還算不錯的體力，我們給了自己最正當的藉口——去看看這個遼闊的世界。</p>

@@ -32,30 +32,30 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     }
 
     return (
-        <main className="relative min-h-screen bg-earth-ocean/30 py-24 px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text">
+        <main className="relative min-h-screen bg-earth-ocean/30 py-24 px-3 sm:px-6 md:px-12 text-earth-text selection:bg-earth-accent/30 selection:text-earth-text">
             {/* Top-left Back to Home Button */}
             <div className="absolute top-6 left-6 md:top-10 md:left-10 z-50">
-                <Link href="/" className="inline-flex items-center text-sm font-sans tracking-widest uppercase border border-earth-text/20 bg-[#F4F1EA] rounded-full px-4 py-2 hover:bg-earth-text hover:text-earth-ocean shadow-sm transition-all duration-300">
+                <Link href="/" className="inline-flex items-center text-sm font-sans tracking-widest uppercase border border-earth-text/20 bg-[#F4F1EA] rounded-full min-h-11 px-4 py-3 hover:bg-earth-text hover:text-earth-ocean shadow-sm transition-all duration-300">
                     ← 回首頁
                 </Link>
             </div>
 
-            <article className="max-w-3xl mx-auto bg-[#F4F1EA] p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl">
+            <article className="max-w-3xl mx-auto bg-[#F4F1EA] px-4 py-8 sm:p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl">
                 <header className="mb-12 text-center">
-                    <p className="text-earth-accent font-sans text-sm tracking-widest font-semibold uppercase mb-4">
+                    <p className="text-earth-accent font-sans text-sm tracking-wide leading-relaxed font-semibold uppercase mb-4">
                         {post.location} ‧ {post.date}
                     </p>
                     <h1 className="text-3xl md:text-5xl font-serif font-bold text-earth-text mb-6 leading-tight !leading-normal">
                         {post.title}
                     </h1>
                     {post.description && (
-                        <p className="text-lg text-earth-text/80 font-sans font-light italic mt-4 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-lg text-earth-text/80 font-sans font-normal mt-4 max-w-2xl mx-auto leading-relaxed">
                             {post.description}
                         </p>
                     )}
                 </header>
 
-                <div className="prose prose-lg md:prose-xl prose-stone max-w-none text-earth-text/90 font-sans font-light
+                <div className="prose prose-lg md:prose-xl prose-stone max-w-none text-earth-text/90 font-sans font-normal leading-[1.9] break-words
               prose-headings:font-serif prose-headings:font-semibold prose-headings:text-earth-text
               prose-a:text-earth-accent hover:prose-a:text-earth-text prose-a:transition-colors
               prose-img:rounded-xl prose-img:shadow-md

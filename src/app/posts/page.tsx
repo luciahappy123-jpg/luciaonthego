@@ -15,29 +15,29 @@ export default function PostsPage() {
             {/* 頂部導覽列 */}
             <Header className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text" />
 
-            <div className="max-w-5xl mx-auto mt-12 md:mt-20">
-                <header className="mb-16 md:mb-24 text-center">
+            <div className="max-w-5xl mx-auto mt-6 md:mt-20">
+                <header className="mb-10 md:mb-20 text-center">
                     <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 tracking-wide drop-shadow-sm">所有旅誌</h1>
-                    <p className="font-sans text-earth-text/80 tracking-widest uppercase text-sm font-light">
+                    <p className="font-sans text-earth-text/80 tracking-widest uppercase text-base font-normal leading-relaxed">
                         探尋世界各個角落的足跡與隨筆
                     </p>
                 </header>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
                     {posts.map(post => (
-                        <Link href={`/posts/${post.slug}`} key={post.slug} className="group flex flex-col pt-8 pb-10 px-8 bg-white/50 backdrop-blur-sm rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
-                            <p className="text-earth-accent font-sans text-[11px] tracking-[0.15em] font-bold uppercase mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
+                        <Link href={`/posts/${post.slug}`} key={post.slug} className="group flex flex-col py-7 px-6 md:px-8 bg-white/50 backdrop-blur-sm rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
+                            <p className="text-earth-accent font-sans text-sm leading-relaxed tracking-wide font-bold uppercase mb-4 opacity-100 transition-opacity">
                                 {post.location || '未知地點'} ‧ {post.date}
                             </p>
                             <h2 className="text-xl md:text-2xl font-serif font-bold mb-4 group-hover:text-earth-accent transition-colors leading-snug">
                                 {post.title}
                             </h2>
                             {post.description && (
-                                <p className="text-earth-text/70 font-sans font-light leading-relaxed text-sm mb-6 flex-grow line-clamp-3">
+                                <p className="text-earth-text/70 font-sans font-normal leading-loose text-base mb-6 flex-grow line-clamp-3">
                                     {post.description}
                                 </p>
                             )}
-                            <div className="mt-auto pt-6 border-t border-earth-text/10 flex items-center justify-between text-xs font-sans tracking-widest font-semibold text-earth-text/50 group-hover:text-earth-accent transition-colors uppercase">
+                            <div className="mt-auto pt-6 border-t border-earth-text/10 flex items-center justify-between text-xs font-sans tracking-widest font-semibold text-earth-text/75 group-hover:text-earth-accent transition-colors uppercase">
                                 <span>Read Story</span>
                                 <span className="text-lg leading-none transform group-hover:translate-x-1 transition-transform">→</span>
                             </div>

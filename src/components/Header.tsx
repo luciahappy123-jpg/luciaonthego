@@ -32,17 +32,18 @@ export default function Header({ className = "absolute top-0 w-full z-20 flex ju
                     <Link href="/about" className={`${isAbout ? 'text-earth-accent font-semibold border-b border-earth-accent pb-1' : 'hover:text-earth-accent transition-colors'}`}>關於</Link>
                     <button 
                         aria-label="搜尋" 
-                        className="ml-4 hover:text-earth-accent transition-colors"
+                        className="ml-2 inline-flex h-11 w-11 items-center justify-center rounded-full hover:bg-earth-text/5 hover:text-earth-accent transition-colors"
                         onClick={() => setIsSearchOpen(true)}
                     >
                         <Search size={18} />
                     </button>
                 </nav>
-                <div className="flex md:hidden gap-5 items-center">
-                    <button aria-label="搜尋" onClick={() => { setIsMenuOpen(false); setIsSearchOpen(true); }}>
+                <div className="flex md:hidden gap-2 items-center">
+                    <button className="inline-flex h-11 w-11 items-center justify-center rounded-full hover:bg-earth-text/5" aria-label="搜尋" onClick={() => { setIsMenuOpen(false); setIsSearchOpen(true); }}>
                         <Search className="w-5 h-5 hover:text-earth-accent transition-colors" />
                     </button>
                     <button
+                        className="inline-flex h-11 w-11 items-center justify-center rounded-full hover:bg-earth-text/5"
                         aria-label={isMenuOpen ? '關閉選單' : '選單'}
                         aria-expanded={isMenuOpen}
                         aria-controls="mobile-navigation"
