@@ -13,7 +13,7 @@ export default function Home() {
     <main className="relative h-dvh w-full overflow-hidden bg-earth-ocean">
 
       {/* 頂部導覽列 */}
-      <Header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto drop-shadow-sm" />
+      <Header className="absolute top-0 w-full z-20 flex justify-between items-center px-6 md:px-12 py-6 text-earth-text pointer-events-auto bg-earth-ocean shadow-sm" />
 
       {/* 互動地圖背景 */}
       <MapBackground />
